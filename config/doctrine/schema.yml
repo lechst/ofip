@@ -1,0 +1,255 @@
+detect_relations:             true
+
+StaticContentGlobal:
+  columns:
+    name:                     {type: string(120), notnull: true}    
+    content:                  {type: string, notnull: true}
+
+LayoutImage:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+    order_nr:                 {type: integer, notnull: true}
+
+Logotype:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+File:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+    filesize:                 {type: integer, notnull: true}
+    filetype:                 {type: string(120), notnull: true}
+
+Image:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+Video:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+Audio:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+Subpage:
+  columns:
+    name:                     {type: string(120), unique: true}
+    event:                    {type: string(120), unique: true}
+    content:                  {type: string, notnull: true}
+
+StaticContentSubpage:
+  columns:
+    subpage_id: ~
+    name:                     {type: string(120), notnull: true}
+    title:                    {type: string(512), notnull: true}
+    content:                  {type: string, notnull: true}
+    is_module:                {type: boolean, default: false}
+
+Archive:
+  columns:
+    edition:                  {type: string(4)}
+    link_to:                  {type: string}
+    image_id: ~
+
+ArchiveGallery:    
+  columns:
+    archive_id: ~
+    image_id: ~
+    order_nr:                 {type: integer, notnull: true}
+    content:                  {type: string, notnull: true}
+
+ArchiveExhibitionImage:
+  columns:
+    archive_id: ~
+    image_id: ~
+    order_nr:                 {type: integer, notnull: true}
+    content:                  {type: string, notnull: true}
+
+ArchiveExhibitionVideo:
+  columns:
+    archive_id: ~
+    video_id: ~
+    order_nr:                 {type: integer, notnull: true}
+    content:                  {type: string, notnull: true}
+
+ArchiveExhibitionAudio:
+  columns:
+    archive_id: ~
+    audio_id: ~
+    order_nr:                 {type: integer, notnull: true}
+    content:                  {type: string, notnull: true}
+
+ConferenceProgram:
+  columns:
+    day:                      {type: date, notnull: true}
+    hour:                     {type: date, notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+
+SpeakerImage:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+ConferenceSpeaker:
+  columns:
+    conference_program_id: ~
+    speaker_image_id: ~
+    content:                  {type: string, notnull: true}
+    order_nr:                 {type: integer, notnull: true}
+
+UserAreaPlace:
+  columns:
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+
+UserAreaAccommodation:
+  columns:
+    place:                    {type: string(120), notnull: true}
+    image_id: ~
+    content:                  {type: string, notnull: true}
+    order_nr:                 {type: integer, notnull: true}
+
+UserAreaUserImage:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+UserAreaUsers:
+  columns:
+    user_area_user_image_id: ~
+    content:                  {type: string, notnull: true}
+    order_nr:                 {type: integer, notnull: true}
+
+SaturdaysBreakfastProgram:
+  columns:
+    hour:                     {type: date, notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+
+SaturdaysBreakfastSpeakerImage:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+SaturdaysBreakfastSpeaker:
+  columns:
+    saturdays_breakfast_program_id: ~
+    saturdays_breakfast_speaker_image_id: ~
+    content:                  {type: string, notnull: true}   
+    order_nr:                 {type: integer, notnull: true}
+
+CafeteriaProgram:
+  columns:
+    day:                      {type: date, notnull: true}
+    hour:                     {type: date, notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+    image_id: ~
+
+SpectacleProgram:
+  columns:
+    day:                      {type: date, notnull: true}
+    hour:                     {type: date, notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+    image_id: ~
+
+ConcertProgram:
+  columns:
+    day:                      {type: date, notnull: true}
+    hour:                     {type: date, notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+    image_id: ~
+
+Exhibitions:
+  columns:
+    name:                     {type: string(120), notnull: true}
+    link_to:                  {type: string}
+    image_id: ~
+
+Calendar:
+  columns:
+    event:                    {type: string(120), notnull: true}
+    day:                      {type: date, notnull: true}
+    hour:                     {type: date, notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+    image_id: ~
+
+PicnicPlan:
+  columns:
+    name:                     {type: string(120), notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+    image_id: ~
+    
+PicnicProgram:
+  columns:
+    hour:                     {type: date, notnull: true}
+    place:                    {type: string(120), notnull: true}
+    content:                  {type: string, notnull: true}
+
+PicnicParticipantImage:
+  columns:
+    filename:                 {type: string(120), notnull: true}
+
+PicnicParticipant:
+  columns:
+    picnic_participant_image_id: ~
+    content:                  {type: string, notnull: true}
+    order_nr:                 {type: integer, notnull: true}
+    
+RegistrationForm:
+  columns:
+    is_group:                 {type: boolean, notnull: true}
+    name:                     {type: string(120), notnull: true}
+    my_email:                 {type: string(120), email: true, notnull: true}
+    organization_name:        {type: string(120), notnull: true}
+    street:                   {type: string(120), notnull: true}
+    postal_code:              {type: string(120), notnull: true}
+    locality:                 {type: string(120), notnull: true}
+    voivodeship:              {type: string(120), notnull: true}
+    phone_number:             {type: string(120), notnull: true}
+    fax:                      {type: string(120), notnull: true}
+    organization_email:       {type: string(120), email: true, notnull: true}
+    internet_page:            {type: string, notnull: true}
+    NIP:                      {type: string(120), notnull: true}
+    agreement1:               {type: boolean, notnull: true}
+    number_of_participants:   {type: integer, notnull: true}
+    fee_number:               {type: integer, notnull: true}
+    fee_total:                {type: string(120), notnull: true}
+    fac_name:                 {type: string(120), notnull: true}
+    fac_address:              {type: string(120), notnull: true}
+    fac_NIP:                  {type: string(120), notnull: true}
+    accommodation:            {type: boolean, notnull: true}
+    participation_1:          {type: boolean, notnull: true}
+    participants_1:           {type: boolean, notnull: true}
+    participation_2:          {type: boolean, notnull: true}
+    participants_2:           {type: boolean, notnull: true}
+    participation_3:          {type: boolean, notnull: true}
+    participants_3:           {type: boolean, notnull: true}
+    participation_4:          {type: boolean, notnull: true}
+    participants_4:           {type: boolean, notnull: true}
+    participation_5:          {type: boolean, notnull: true}
+    participants_5:           {type: boolean, notnull: true}
+    participation_6:          {type: boolean, notnull: true}
+    participants_6:           {type: boolean, notnull: true}
+    participation_7:          {type: boolean, notnull: true}
+    participants_7:           {type: boolean, notnull: true}
+    participation_8:          {type: boolean, notnull: true}
+    participants_8:           {type: boolean, notnull: true}
+    participation_9:          {type: boolean, notnull: true}
+    participants_9:           {type: boolean, notnull: true}
+    participation_10:         {type: boolean, notnull: true}
+    participants_10:          {type: boolean, notnull: true}
+    participation_11:         {type: boolean, notnull: true}
+    participants_11:          {type: boolean, notnull: true}
+    participation_12:         {type: boolean, notnull: true}
+    participants_12:          {type: boolean, notnull: true}
+    participation_13:         {type: boolean, notnull: true}
+    participants_13:          {type: boolean, notnull: true}
+    participation_14:         {type: boolean, notnull: true}
+    participants_14:          {type: boolean, notnull: true}
+    participation_15:         {type: boolean, notnull: true}
+    participants_15:          {type: boolean, notnull: true}
+    agreement2:               {type: boolean, notnull: true}

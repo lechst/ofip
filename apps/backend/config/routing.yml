@@ -1,0 +1,322 @@
+registration_form:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                RegistrationForm
+    module:               registration_form
+    prefix_path:          /registration_form
+    column:               id
+    with_wildcard_routes: true
+
+picnic_participant:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PicnicParticipant
+    module:               picnic_participant
+    prefix_path:          /picnic_participant
+    column:               id
+    with_wildcard_routes: true
+
+picnic_participant_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PicnicParticipantImage
+    module:               picnic_participant_image
+    prefix_path:          /picnic_participant_image
+    column:               id
+    with_wildcard_routes: true
+
+picnic_program:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PicnicProgram
+    module:               picnic_program
+    prefix_path:          /picnic_program
+    column:               id
+    with_wildcard_routes: true
+
+picnic_plan:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                PicnicPlan
+    module:               picnic_plan
+    prefix_path:          /picnic_plan
+    column:               id
+    with_wildcard_routes: true
+
+calendar:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Calendar
+    module:               calendar
+    prefix_path:          /calendar
+    column:               id
+    with_wildcard_routes: true
+
+exhibitions:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Exhibitions
+    module:               exhibitions
+    prefix_path:          /exhibitions
+    column:               id
+    with_wildcard_routes: true
+
+concert_program:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ConcertProgram
+    module:               concert_program
+    prefix_path:          /concert_program
+    column:               id
+    with_wildcard_routes: true
+
+spectacle_program:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SpectacleProgram
+    module:               spectacle_program
+    prefix_path:          /spectacle_program
+    column:               id
+    with_wildcard_routes: true
+
+cafeteria_program:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CafeteriaProgram
+    module:               cafeteria_program
+    prefix_path:          /cafeteria_program
+    column:               id
+    with_wildcard_routes: true
+
+saturdays_breakfast_speaker:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SaturdaysBreakfastSpeaker
+    module:               saturdays_breakfast_speaker
+    prefix_path:          /saturdays_breakfast_speaker
+    column:               id
+    with_wildcard_routes: true
+
+saturdays_breakfast_speaker_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SaturdaysBreakfastSpeakerImage
+    module:               saturdays_breakfast_speaker_image
+    prefix_path:          /saturdays_breakfast_speaker_image
+    column:               id
+    with_wildcard_routes: true
+
+saturdays_breakfast_program:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SaturdaysBreakfastProgram
+    module:               saturdays_breakfast_program
+    prefix_path:          /saturdays_breakfast_program
+    column:               id
+    with_wildcard_routes: true
+
+user_area_users:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                UserAreaUsers
+    module:               user_area_users
+    prefix_path:          /user_area_users
+    column:               id
+    with_wildcard_routes: true
+
+user_area_user_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                UserAreaUserImage
+    module:               user_area_user_image
+    prefix_path:          /user_area_user_image
+    column:               id
+    with_wildcard_routes: true
+
+user_area_accommodation:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                UserAreaAccommodation
+    module:               user_area_accommodation
+    prefix_path:          /user_area_accommodation
+    column:               id
+    with_wildcard_routes: true
+
+user_area_place:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                UserAreaPlace
+    module:               user_area_place
+    prefix_path:          /user_area_place
+    column:               id
+    with_wildcard_routes: true
+
+conference_speaker:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ConferenceSpeaker
+    module:               conference_speaker
+    prefix_path:          /conference_speaker
+    column:               id
+    with_wildcard_routes: true
+
+speaker_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SpeakerImage
+    module:               speaker_image
+    prefix_path:          /speaker_image
+    column:               id
+    with_wildcard_routes: true
+
+conference_program:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ConferenceProgram
+    module:               conference_program
+    prefix_path:          /conference_program
+    column:               id
+    with_wildcard_routes: true
+
+archive_exhibition_audio:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ArchiveExhibitionAudio
+    module:               archive_exhibition_audio
+    prefix_path:          /archive_exhibition_audio
+    column:               id
+    with_wildcard_routes: true
+
+archive_exhibition_video:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ArchiveExhibitionVideo
+    module:               archive_exhibition_video
+    prefix_path:          /archive_exhibition_video
+    column:               id
+    with_wildcard_routes: true
+
+archive_exhibition_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ArchiveExhibitionImage
+    module:               archive_exhibition_image
+    prefix_path:          /archive_exhibition_image
+    column:               id
+    with_wildcard_routes: true
+
+archive_gallery:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ArchiveGallery
+    module:               archive_gallery
+    prefix_path:          /archive_gallery
+    column:               id
+    with_wildcard_routes: true
+
+archive:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Archive
+    module:               archive
+    prefix_path:          /archive
+    column:               id
+    with_wildcard_routes: true
+
+static_content_subpage:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                StaticContentSubpage
+    module:               static_content_subpage
+    prefix_path:          /static_content_subpage
+    column:               id
+    with_wildcard_routes: true
+
+subpage:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Subpage
+    module:               subpage
+    prefix_path:          /subpage
+    column:               id
+    with_wildcard_routes: true
+
+audio:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Audio
+    module:               audio
+    prefix_path:          /audio
+    column:               id
+    with_wildcard_routes: true
+
+video:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Video
+    module:               video
+    prefix_path:          /video
+    column:               id
+    with_wildcard_routes: true
+
+image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Image
+    module:               image
+    prefix_path:          /image
+    column:               id
+    with_wildcard_routes: true
+
+file:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                File
+    module:               file
+    prefix_path:          /file
+    column:               id
+    with_wildcard_routes: true
+
+logotype:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Logotype
+    module:               logotype
+    prefix_path:          /logotype
+    column:               id
+    with_wildcard_routes: true
+
+layout_image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                LayoutImage
+    module:               layout_image
+    prefix_path:          /layout_image
+    column:               id
+    with_wildcard_routes: true
+
+static_content_global:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                StaticContentGlobal
+    module:               static_content_global
+    prefix_path:          /static_content_global
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: subpage, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

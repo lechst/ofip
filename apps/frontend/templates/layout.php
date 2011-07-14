@@ -24,9 +24,7 @@
 
                 </div>
 
-                <div class="footer_logo"></div>
-
-                <div class="footer_organizers"></div>
+                <?php include_partial('global/footer') ?>
 
             </div>
 

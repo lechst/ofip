@@ -12,5 +12,14 @@ class FileForm extends BaseFileForm
 {
   public function configure()
   {
+      $this->widgetSchema['filename'] = new sfWidgetFormInputFile(array(
+                    'label' => 'Filename',
+                ));
+      
+      $this->validatorSchema['filename'] = new sfValidatorFile(array(
+                    'required' => false,
+                    'path' => sfConfig::get('sf_upload_dir') . '/files',
+                    'mime_types' => 'web_images',
+                ));
   }
 }

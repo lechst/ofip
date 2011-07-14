@@ -163,7 +163,7 @@ abstract class BaseFileGeneratorConfiguration extends sfModelGeneratorConfigurat
    */
   public function getFormClass()
   {
-    return 'FileForm';
+    return 'BackendFileForm';
   }
 
   public function hasFilterForm()

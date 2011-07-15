@@ -391,11 +391,34 @@ body {
 
 
 .footer_logo {
+    position: relative;
     margin-top: 21px;
     width: 940px;
     height: 59px;
     border-top: 1px solid #939395;
     border-bottom: 1px solid #939395;
+    overflow: hidden;
+}
+.animate_logotypes {
+    position: absolute;
+    left: 0px;
+    height: 59px;
+}
+.container_logotypes {
+    position: relative;
+    height: 59px;
+}
+.footer_logomove1 {
+    position: absolute;
+    left: 0px;
+    height: 59px;
+    width: 940px;
+}
+.footer_logomove2 {
+    position: absolute;
+    left: 940px;
+    height: 59px;
+    width: 940px;
 }
 .footer_logo_box {
     float: left;

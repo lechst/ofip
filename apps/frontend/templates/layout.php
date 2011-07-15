@@ -16,7 +16,7 @@
 
                 <?php include_partial('global/header') ?> 
 
-                <div class="menu_main"></div>
+                <?php include_partial('global/menu') ?>
 
                 <div class="container">
 

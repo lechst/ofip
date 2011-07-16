@@ -1,7 +1,7 @@
 <div class="footer_logo">
 
     <div class="animate_logotypes">
-
+    
         <div class="container_logotypes">
 
             <div class="footer_logomove1">
@@ -37,7 +37,7 @@
             </div>
 
         </div>
-
+        
     </div>
 
 </div>

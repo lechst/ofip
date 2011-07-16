@@ -15,13 +15,19 @@ $(document).ready(function () {
         );
         
     //jQuery Logotypes Animation
-    
+     
     function animation() { 
         
         $(".animate_logotypes").animate({
-            left: "-=940px"
-        }, 20000, 'linear', function(){
-            $('.animate_logotypes').css('left', 0);
+            left: "-=1px"
+        }, 20, 'linear', function(){
+           
+            x=parseInt($('.animate_logotypes').css('left'));
+            
+            if (x<=-1303) {
+                $('.animate_logotypes').css('left', 0)
+            }   
+
             animation();
         });
           
@@ -32,6 +38,7 @@ $(document).ready(function () {
     $(".animate_logotypes").mouseenter(function() {
         $(this).stop()
     });
+    
     $(".animate_logotypes").mouseleave(function() {
         animation();
     });

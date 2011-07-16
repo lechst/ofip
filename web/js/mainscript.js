@@ -42,5 +42,9 @@ $(document).ready(function () {
     $(".animate_logotypes").mouseleave(function() {
         animation();
     });
+    
+    //jQuery Logotypes Hover
+    
+    $(".logo_1").hover(function(){$(".logo_1").attr(src,"../images/logotype2_1.png")},function(){$(".logo_1").attr(src,"../images/logotype_1.png")});
      
 });

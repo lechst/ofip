@@ -58,6 +58,9 @@
                         <?php echo link_to('file', 'file') ?>
                     </li>
                     <li>
+                        <?php echo link_to('homepage_boxes', 'homepage_boxes') ?>
+                    </li>
+                    <li>
                         <?php echo link_to('image', 'image') ?>
                     </li>
                     <li>

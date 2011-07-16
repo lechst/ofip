@@ -11,6 +11,7 @@ CREATE TABLE conference_program (id BIGINT AUTO_INCREMENT, day DATE NOT NULL, ho
 CREATE TABLE conference_speaker (id BIGINT AUTO_INCREMENT, conference_program_id BIGINT, speaker_image_id BIGINT, content TEXT NOT NULL, order_nr BIGINT NOT NULL, INDEX conference_program_id_idx (conference_program_id), INDEX speaker_image_id_idx (speaker_image_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE exhibitions (id BIGINT AUTO_INCREMENT, name VARCHAR(120) NOT NULL, link_to TEXT, image_id BIGINT, INDEX image_id_idx (image_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE file (id BIGINT AUTO_INCREMENT, filename VARCHAR(120) NOT NULL, filesize BIGINT NOT NULL, filetype VARCHAR(120) NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE homepage_boxes (id BIGINT AUTO_INCREMENT, container_nr BIGINT NOT NULL, event VARCHAR(120) NOT NULL, is_active TINYINT(1) DEFAULT '0', title TEXT NOT NULL, content TEXT NOT NULL, image_id BIGINT, INDEX image_id_idx (image_id), PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE image (id BIGINT AUTO_INCREMENT, filename VARCHAR(120) NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE layout_image (id BIGINT AUTO_INCREMENT, filename VARCHAR(120) NOT NULL, order_nr BIGINT NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
 CREATE TABLE logotype (id BIGINT AUTO_INCREMENT, filename VARCHAR(120) NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
@@ -47,6 +48,7 @@ ALTER TABLE concert_program ADD CONSTRAINT concert_program_image_id_image_id FOR
 ALTER TABLE conference_speaker ADD CONSTRAINT conference_speaker_speaker_image_id_speaker_image_id FOREIGN KEY (speaker_image_id) REFERENCES speaker_image(id);
 ALTER TABLE conference_speaker ADD CONSTRAINT conference_speaker_conference_program_id_conference_program_id FOREIGN KEY (conference_program_id) REFERENCES conference_program(id);
 ALTER TABLE exhibitions ADD CONSTRAINT exhibitions_image_id_image_id FOREIGN KEY (image_id) REFERENCES image(id);
+ALTER TABLE homepage_boxes ADD CONSTRAINT homepage_boxes_image_id_image_id FOREIGN KEY (image_id) REFERENCES image(id);
 ALTER TABLE picnic_participant ADD CONSTRAINT pppi FOREIGN KEY (picnic_participant_image_id) REFERENCES picnic_participant_image(id);
 ALTER TABLE picnic_plan ADD CONSTRAINT picnic_plan_image_id_image_id FOREIGN KEY (image_id) REFERENCES image(id);
 ALTER TABLE saturdays_breakfast_speaker ADD CONSTRAINT sssi_1 FOREIGN KEY (saturdays_breakfast_speaker_image_id) REFERENCES saturdays_breakfast_speaker_image(id);

@@ -5,6 +5,15 @@ StaticContentGlobal:
     name:                     {type: string(120), notnull: true}    
     content:                  {type: string, notnull: true}
 
+HomepageBoxes:
+  columns:
+    container_nr:             {type: integer, notnull: true}
+    event:                    {type: string(120), notnull: true}
+    is_active:                {type: boolean, default: false}
+    title:                    {type: string(512), notnull: true}
+    content:                  {type: string, notnull: true}
+    image_id: ~
+
 LayoutImage:
   columns:
     filename:                 {type: string(120), notnull: true}

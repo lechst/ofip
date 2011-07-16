@@ -21,7 +21,7 @@
                 <div class="container">
 
                     <?php echo $sf_content ?>
-
+                    
                 </div>
 
                 <?php include_partial('global/footer') ?>

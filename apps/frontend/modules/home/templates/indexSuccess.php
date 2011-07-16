@@ -61,3 +61,5 @@
     <br class="clear" />
     
 </div>
+
+<?php include_partial('global/logotypes') ?>

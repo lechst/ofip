@@ -18,5 +18,10 @@ class subpageActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
     //$this->forward('default', 'module');
+      
+      $this->menu_category = Doctrine::getTable('MenuCategory')
+      ->createQuery('a')
+      ->execute();
+      
   }
 }

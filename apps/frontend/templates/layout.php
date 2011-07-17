@@ -16,7 +16,7 @@
 
                 <?php include_partial('global/header') ?> 
 
-                <?php include_partial('global/menu', array('menu_category' => MainHelp::getCategories())) ?>
+                <?php include_partial('global/menu', array('menu_category' => MainHelp::getMenuCategories(), 'menu_subpage' => MainHelp::getMenuSubpages())) ?>
 
                 <div class="container">
 

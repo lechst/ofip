@@ -13,7 +13,7 @@ StaticContentGlobal:
 
 HomepageBoxes:
   columns:
-    order_nr:                 {type: integer, unique: true}
+    container_nr:             {type: integer, notnull: true}
     menu_category_id: ~
     is_active:                {type: boolean, default: false}
     title:                    {type: string(512), notnull: true}

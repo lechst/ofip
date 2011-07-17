@@ -13,7 +13,7 @@ abstract class BaseHomepageBoxesFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'order_nr'         => new sfWidgetFormFilterInput(),
+      'container_nr'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'menu_category_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('MenuCategory'), 'add_empty' => true)),
       'is_active'        => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'title'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
@@ -22,7 +22,7 @@ abstract class BaseHomepageBoxesFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'order_nr'         => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'container_nr'     => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'menu_category_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('MenuCategory'), 'column' => 'id')),
       'is_active'        => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'title'            => new sfValidatorPass(array('required' => false)),
@@ -48,7 +48,7 @@ abstract class BaseHomepageBoxesFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'               => 'Number',
-      'order_nr'         => 'Number',
+      'container_nr'     => 'Number',
       'menu_category_id' => 'ForeignKey',
       'is_active'        => 'Boolean',
       'title'            => 'Text',

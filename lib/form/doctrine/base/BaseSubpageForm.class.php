@@ -15,24 +15,23 @@ abstract class BaseSubpageForm extends BaseFormDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id'      => new sfWidgetFormInputHidden(),
-      'name'    => new sfWidgetFormInputText(),
-      'event'   => new sfWidgetFormInputText(),
-      'content' => new sfWidgetFormTextarea(),
+      'id'               => new sfWidgetFormInputHidden(),
+      'menu_category_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('MenuCategory'), 'add_empty' => true)),
+      'name'             => new sfWidgetFormInputText(),
+      'is_menu'          => new sfWidgetFormInputCheckbox(),
+      'is_module'        => new sfWidgetFormInputCheckbox(),
     ));
 
     $this->setValidators(array(
-      'id'      => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'name'    => new sfValidatorString(array('max_length' => 120, 'required' => false)),
-      'event'   => new sfValidatorString(array('max_length' => 120, 'required' => false)),
-      'content' => new sfValidatorString(),
+      'id'               => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'menu_category_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('MenuCategory'), 'required' => false)),
+      'name'             => new sfValidatorString(array('max_length' => 120, 'required' => false)),
+      'is_menu'          => new sfValidatorBoolean(),
+      'is_module'        => new sfValidatorBoolean(array('required' => false)),
     ));
 
     $this->validatorSchema->setPostValidator(
-      new sfValidatorAnd(array(
-        new sfValidatorDoctrineUnique(array('model' => 'Subpage', 'column' => array('name'))),
-        new sfValidatorDoctrineUnique(array('model' => 'Subpage', 'column' => array('event'))),
-      ))
+      new sfValidatorDoctrineUnique(array('model' => 'Subpage', 'column' => array('name')))
     );
 
     $this->widgetSchema->setNameFormat('subpage[%s]');

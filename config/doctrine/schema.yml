@@ -1,14 +1,20 @@
 detect_relations:             true
 
+MenuCategory:
+  columns:
+    name:                     {type: string(120), notnull: true, unique: true}
+    order_nr:                 {type: integer, unique: true}
+
 StaticContentGlobal:
   columns:
-    name:                     {type: string(120), notnull: true}    
+    name:                     {type: string(120), notnull: true}
+    title:                    {type: string(512), notnull: true}
     content:                  {type: string, notnull: true}
 
 HomepageBoxes:
   columns:
-    container_nr:             {type: integer, notnull: true}
-    event:                    {type: string(120), notnull: true}
+    order_nr:                 {type: integer, unique: true}
+    menu_category_id: ~
     is_active:                {type: boolean, default: false}
     title:                    {type: string(512), notnull: true}
     content:                  {type: string, notnull: true}
@@ -43,17 +49,18 @@ Audio:
 
 Subpage:
   columns:
+    menu_category_id: ~
     name:                     {type: string(120), unique: true}
-    event:                    {type: string(120), unique: true}
-    content:                  {type: string, notnull: true}
+    is_menu:                  {type: boolean, notnull: true}
+    is_module:                {type: boolean, default: false}
 
 StaticContentSubpage:
   columns:
+    menu_category_id: ~
     subpage_id: ~
     name:                     {type: string(120), notnull: true}
     title:                    {type: string(512), notnull: true}
     content:                  {type: string, notnull: true}
-    is_module:                {type: boolean, default: false}
 
 Archive:
   columns:

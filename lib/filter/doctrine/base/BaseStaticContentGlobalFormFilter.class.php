@@ -14,11 +14,13 @@ abstract class BaseStaticContentGlobalFormFilter extends BaseFormFilterDoctrine
   {
     $this->setWidgets(array(
       'name'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'title'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'content' => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
       'name'    => new sfValidatorPass(array('required' => false)),
+      'title'   => new sfValidatorPass(array('required' => false)),
       'content' => new sfValidatorPass(array('required' => false)),
     ));
 
@@ -41,6 +43,7 @@ abstract class BaseStaticContentGlobalFormFilter extends BaseFormFilterDoctrine
     return array(
       'id'      => 'Number',
       'name'    => 'Text',
+      'title'   => 'Text',
       'content' => 'Text',
     );
   }

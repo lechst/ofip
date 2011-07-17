@@ -17,12 +17,14 @@ abstract class BaseStaticContentGlobalForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'      => new sfWidgetFormInputHidden(),
       'name'    => new sfWidgetFormInputText(),
+      'title'   => new sfWidgetFormTextarea(),
       'content' => new sfWidgetFormTextarea(),
     ));
 
     $this->setValidators(array(
       'id'      => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'name'    => new sfValidatorString(array('max_length' => 120)),
+      'title'   => new sfValidatorString(array('max_length' => 512)),
       'content' => new sfValidatorString(),
     ));
 

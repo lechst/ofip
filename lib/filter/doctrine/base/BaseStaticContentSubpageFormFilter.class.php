@@ -13,19 +13,19 @@ abstract class BaseStaticContentSubpageFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'subpage_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Subpage'), 'add_empty' => true)),
-      'name'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'title'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'content'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'is_module'  => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      'menu_category_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('MenuCategory'), 'add_empty' => true)),
+      'subpage_id'       => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Subpage'), 'add_empty' => true)),
+      'name'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'title'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'content'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
-      'subpage_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Subpage'), 'column' => 'id')),
-      'name'       => new sfValidatorPass(array('required' => false)),
-      'title'      => new sfValidatorPass(array('required' => false)),
-      'content'    => new sfValidatorPass(array('required' => false)),
-      'is_module'  => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
+      'menu_category_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('MenuCategory'), 'column' => 'id')),
+      'subpage_id'       => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Subpage'), 'column' => 'id')),
+      'name'             => new sfValidatorPass(array('required' => false)),
+      'title'            => new sfValidatorPass(array('required' => false)),
+      'content'          => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('static_content_subpage_filters[%s]');
@@ -45,12 +45,12 @@ abstract class BaseStaticContentSubpageFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'         => 'Number',
-      'subpage_id' => 'ForeignKey',
-      'name'       => 'Text',
-      'title'      => 'Text',
-      'content'    => 'Text',
-      'is_module'  => 'Boolean',
+      'id'               => 'Number',
+      'menu_category_id' => 'ForeignKey',
+      'subpage_id'       => 'ForeignKey',
+      'name'             => 'Text',
+      'title'            => 'Text',
+      'content'          => 'Text',
     );
   }
 }

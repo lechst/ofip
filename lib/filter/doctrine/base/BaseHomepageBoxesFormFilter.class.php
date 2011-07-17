@@ -13,21 +13,21 @@ abstract class BaseHomepageBoxesFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'container_nr' => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'event'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'is_active'    => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
-      'title'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'content'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'image_id'     => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Image'), 'add_empty' => true)),
+      'order_nr'         => new sfWidgetFormFilterInput(),
+      'menu_category_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('MenuCategory'), 'add_empty' => true)),
+      'is_active'        => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      'title'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'content'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'image_id'         => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Image'), 'add_empty' => true)),
     ));
 
     $this->setValidators(array(
-      'container_nr' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
-      'event'        => new sfValidatorPass(array('required' => false)),
-      'is_active'    => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
-      'title'        => new sfValidatorPass(array('required' => false)),
-      'content'      => new sfValidatorPass(array('required' => false)),
-      'image_id'     => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Image'), 'column' => 'id')),
+      'order_nr'         => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'menu_category_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('MenuCategory'), 'column' => 'id')),
+      'is_active'        => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
+      'title'            => new sfValidatorPass(array('required' => false)),
+      'content'          => new sfValidatorPass(array('required' => false)),
+      'image_id'         => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Image'), 'column' => 'id')),
     ));
 
     $this->widgetSchema->setNameFormat('homepage_boxes_filters[%s]');
@@ -47,13 +47,13 @@ abstract class BaseHomepageBoxesFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'           => 'Number',
-      'container_nr' => 'Number',
-      'event'        => 'Text',
-      'is_active'    => 'Boolean',
-      'title'        => 'Text',
-      'content'      => 'Text',
-      'image_id'     => 'ForeignKey',
+      'id'               => 'Number',
+      'order_nr'         => 'Number',
+      'menu_category_id' => 'ForeignKey',
+      'is_active'        => 'Boolean',
+      'title'            => 'Text',
+      'content'          => 'Text',
+      'image_id'         => 'ForeignKey',
     );
   }
 }

@@ -70,6 +70,9 @@
                         <?php echo link_to('logotype', 'logotype') ?>
                     </li>
                     <li>
+                        <?php echo link_to('menu_category', 'menu_category') ?>
+                    </li>
+                    <li>
                         <?php echo link_to('picnic_participant', 'picnic_participant') ?>
                     </li>
                     <li>

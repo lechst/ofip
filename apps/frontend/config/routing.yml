@@ -6,6 +6,14 @@ homepage:
   url:   /
   param: { module: home, action: index }
 
+subpage_show:
+  url:   /strona/:id
+  param: { module: subpage, action: show }
+
+registration:
+  url: /rejestracja
+  param: { module: form, action: new}
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:

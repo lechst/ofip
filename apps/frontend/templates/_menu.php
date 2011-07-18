@@ -1,12 +1,46 @@
 <ul class="menu_main">
 
-    <li class="menu_main_box box_1"><a class="a_main" href=""><span><?php echo $menu_category[0] ?></span></a></li>
+    <li class="menu_main_box box_1"><a class="a_main" href=""><span><?php echo $menu_category[0] ?></span></a>
+            <ul>
+            
+            
+                        <?php $i = 0;
+            foreach ($menu_subpage as $ms) { ?>
+
+                <?php if ($ms['is_module'] == 0) { ?>
+                
+                        <?php if ($ms['menu_category_id'] == 2) { ?>
+                                <li><a href="/strona/<?php echo $ms['id'] ?>"><?php echo $ms['name'] ?></a></li>
+                        <?php }  ?>
+               <?php }  else  { ?>
+                        <?php if ($ms['menu_category_id'] == 2) { ?>
+                                <li><a href="/<?php echo $ms['module'] ?>"><?php echo $ms['name'] ?></a></li>
+                        <?php }  ?>         
+               <?php }  ?>
+                                
+                <?php $i++;
+            } ?>
+                        
+            
+        </ul>   
+        <div class="clear"></div>
+    </li>
     <li class="menu_main_box box_2"><a class="a_main" href=""><span><?php echo $menu_category[1] ?></span></a>
         <ul>
-            <li><a href=""><?php echo $menu_subpage[0] ?></a></li>
-            <li><a href=""><?php echo $menu_subpage[1] ?></a></li>
-            <li><a href=""><?php echo $menu_subpage[2] ?></a></li>
-            <li><a href=""><?php echo $menu_subpage[3] ?></a></li>
+            
+            
+                        <?php $i = 0;
+            foreach ($menu_subpage as $ms) { ?>
+
+                        <?php if ($ms['menu_category_id'] == 3) { ?>
+                                <li><a href=""><?php echo $ms['name'] ?></a></li>
+                        <?php }  ?>
+ 
+
+                <?php $i++;
+            } ?>
+                        
+            
         </ul>   
         <div class="clear"></div>
     </li>

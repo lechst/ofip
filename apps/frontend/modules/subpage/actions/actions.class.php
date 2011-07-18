@@ -24,4 +24,22 @@ class subpageActions extends sfActions
       ->execute();
       
   }
+ 
+    public function executeShow(sfWebRequest $request)
+  {
+    //$this->forward('default', 'module');
+      
+      $this->menu_category = Doctrine::getTable('MenuCategory')
+      ->createQuery('a')
+      ->execute();
+      
+      if($request->hasParameter('id'))
+              
+      $this->getUser()->setAttribute('subpage_id', $request->getParameter('id'));
+       
+      $this->content = Doctrine::getTable('StaticContentSubpage')->findOneBySubpageId($this->getUser()->getAttribute('subpage_id'));
+      
+  }
+
+  
 }

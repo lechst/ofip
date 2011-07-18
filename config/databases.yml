@@ -3,8 +3,8 @@ all:
     class: sfDoctrineDatabase
     param:
       dsn: 'mysql:host=localhost;dbname=ofip'
-      username: root
-      password: null
+      username: ofip
+      password: ofip
       
       attributes:
         DEFAULT_TABLE_COLLATE: utf8_polish_ci

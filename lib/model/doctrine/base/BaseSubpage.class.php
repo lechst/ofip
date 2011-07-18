@@ -9,6 +9,7 @@
  * @property string $name
  * @property boolean $is_menu
  * @property boolean $is_module
+ * @property string $module
  * @property MenuCategory $MenuCategory
  * @property Doctrine_Collection $StaticContentSubpage
  * 
@@ -16,12 +17,14 @@
  * @method string              getName()                 Returns the current record's "name" value
  * @method boolean             getIsMenu()               Returns the current record's "is_menu" value
  * @method boolean             getIsModule()             Returns the current record's "is_module" value
+ * @method string              getModule()               Returns the current record's "module" value
  * @method MenuCategory        getMenuCategory()         Returns the current record's "MenuCategory" value
  * @method Doctrine_Collection getStaticContentSubpage() Returns the current record's "StaticContentSubpage" collection
  * @method Subpage             setMenuCategoryId()       Sets the current record's "menu_category_id" value
  * @method Subpage             setName()                 Sets the current record's "name" value
  * @method Subpage             setIsMenu()               Sets the current record's "is_menu" value
  * @method Subpage             setIsModule()             Sets the current record's "is_module" value
+ * @method Subpage             setModule()               Sets the current record's "module" value
  * @method Subpage             setMenuCategory()         Sets the current record's "MenuCategory" value
  * @method Subpage             setStaticContentSubpage() Sets the current record's "StaticContentSubpage" collection
  * 
@@ -51,6 +54,11 @@ abstract class BaseSubpage extends sfDoctrineRecord
         $this->hasColumn('is_module', 'boolean', null, array(
              'type' => 'boolean',
              'default' => false,
+             ));
+        $this->hasColumn('module', 'string', 120, array(
+             'type' => 'string',
+             'notnull' => true,
+             'length' => 120,
              ));
     }
 

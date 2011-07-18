@@ -17,6 +17,7 @@ abstract class BaseSubpageFormFilter extends BaseFormFilterDoctrine
       'name'             => new sfWidgetFormFilterInput(),
       'is_menu'          => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'is_module'        => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      'module'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
@@ -24,6 +25,7 @@ abstract class BaseSubpageFormFilter extends BaseFormFilterDoctrine
       'name'             => new sfValidatorPass(array('required' => false)),
       'is_menu'          => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'is_module'        => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
+      'module'           => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('subpage_filters[%s]');
@@ -48,6 +50,7 @@ abstract class BaseSubpageFormFilter extends BaseFormFilterDoctrine
       'name'             => 'Text',
       'is_menu'          => 'Boolean',
       'is_module'        => 'Boolean',
+      'module'           => 'Text',
     );
   }
 }

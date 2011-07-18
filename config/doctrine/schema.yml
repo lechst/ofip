@@ -53,6 +53,7 @@ Subpage:
     name:                     {type: string(120), unique: true}
     is_menu:                  {type: boolean, notnull: true}
     is_module:                {type: boolean, default: false}
+    module:                   {type: string(120), notnull: true}
 
 StaticContentSubpage:
   columns:

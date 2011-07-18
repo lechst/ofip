@@ -20,6 +20,7 @@ abstract class BaseSubpageForm extends BaseFormDoctrine
       'name'             => new sfWidgetFormInputText(),
       'is_menu'          => new sfWidgetFormInputCheckbox(),
       'is_module'        => new sfWidgetFormInputCheckbox(),
+      'module'           => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
@@ -28,6 +29,7 @@ abstract class BaseSubpageForm extends BaseFormDoctrine
       'name'             => new sfValidatorString(array('max_length' => 120, 'required' => false)),
       'is_menu'          => new sfValidatorBoolean(),
       'is_module'        => new sfValidatorBoolean(array('required' => false)),
+      'module'           => new sfValidatorString(array('max_length' => 120)),
     ));
 
     $this->validatorSchema->setPostValidator(

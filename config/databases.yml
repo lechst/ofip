@@ -2,9 +2,9 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn: 'mysql:host=localhost;dbname=ofip'
-      username: ofip
-      password: ofip
+      dsn: 'mysql:host=sql.lechst.nazwa.pl;dbname=lechst_4'
+      username: 'lechst_4'
+      password: 'PI314159265chuj'
       
       attributes:
         DEFAULT_TABLE_COLLATE: utf8_polish_ci

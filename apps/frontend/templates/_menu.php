@@ -14,7 +14,7 @@
                         <?php }  ?>
                <?php }  else  { ?>
                         <?php if ($ms['menu_category_id'] == 2) { ?>
-                                <li><a href="/<?php echo $ms['module'] ?>"><?php echo $ms['name'] ?></a></li>
+                                <li><a href="/<?php echo $ms['id'] ?>"><?php echo $ms['name'] ?></a></li>
                         <?php }  ?>         
                <?php }  ?>
                                 

@@ -6,5 +6,10 @@ all:
       username: 'lechst_4'
       password: 'PI314159265chuj'
       
+      #dsn: 'mysql:host=localhost;dbname=ofip'
+      #username: 'ofip'
+      #password: 'ofip'
+      
+      
       attributes:
         DEFAULT_TABLE_COLLATE: utf8_polish_ci

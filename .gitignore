@@ -1,2 +1,10 @@
-/nbproject/private/
-/log/
+.buildpath
+.project
+.settings
+desktop.ini
+Thumbs.db
+.DS_Store
+nbproject/
+log/*
+cache/*
+config/databases.yml

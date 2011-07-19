@@ -177,6 +177,10 @@ body {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.menu_main_box:hover {
+    box-shadow: 6px 6px 7px #000000;
+}
 .menu_main_box a.a_main {
     display: block;
     width: 180px;
@@ -193,6 +197,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    box-shadow: 6px 6px 7px #000000;
 }
 .menu_main_box ul li {
     width: 180px;
@@ -429,12 +434,14 @@ body {
     margin-top: 34px;
     margin-bottom: 34px;
     padding: 0px 10px;
+    min-height: 400px;
+    font-size: 12px;
 }
 .container_subpage_content h1 {
     font-size: 15px;
 }
 .container_subpage_content p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 
@@ -488,7 +495,58 @@ body {
     padding-right: 10px;
 }
 
-
 .clear {
     clear: both;
 }
+
+.reg-form p {
+    font-size:12px;
+}
+
+.reg-form .field {
+    font-weight: normal;
+    font-size: 12px;
+    border: 1px solid #009eff;
+    padding: 5px;
+    margin-top:10px;
+    
+    overflow:auto;
+}
+.reg-form .field .inner-field {
+    margin-right:15px;   
+    margin-bottom:10px;
+    float:left;
+}
+
+
+.reg-form .field .inner-field .label {
+    font-weight: normal;
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+.reg-form .field .inner-field .input {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.reg-form .field .inner-field .bool-label {
+    font-weight: normal;
+    font-size: 11px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width:400px;
+    float:left;
+}
+
+.reg-form .field .inner-field .bool-input {
+    font-weight: normal;
+    font-size: 12px;
+    float:left;
+
+}
+
+.reg-form .field .inner-field .input input {
+width:323px;
+}
+

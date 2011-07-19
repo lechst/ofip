@@ -29,7 +29,7 @@ class subpageActions extends sfActions
   {
     //$this->forward('default', 'module');
       
-      $this->menu_category = Doctrine::getTable('MenuCategory')
+      $this-> menu_category  = Doctrine::getTable('MenuCategory')
       ->createQuery('a')
       ->execute();
       
@@ -38,6 +38,11 @@ class subpageActions extends sfActions
       $this->getUser()->setAttribute('subpage_id', $request->getParameter('id'));
        
       $this->content = Doctrine::getTable('StaticContentSubpage')->findOneBySubpageId($this->getUser()->getAttribute('subpage_id'));
+      
+      $this->menu_subpage_left = Doctrine::getTable('Subpage')
+      ->createQuery('a')
+      ->execute();
+      
       
   }
 

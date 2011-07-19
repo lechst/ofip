@@ -17,11 +17,11 @@
     </div>
     
     <div class="container_layoutimage">
-        <img id="im-1" src="images/layout_image.png" />
-        <img id="im-2" src="images/layout_image2.png" />
-        <img id="im-3" src="images/layout_image3.png" />
-        <img id="im-4" src="images/layout_image4.png" />
-        <img id="im-5" src="images/layout_image5.png" /> 
+        <img id="im-1" src="images/layout_image.jpg" />
+        <img id="im-2" src="images/layout_image1.jpg" />
+        <img id="im-3" src="images/layout_image2.jpg" />
+        <img id="im-4" src="images/layout_image3.jpg" />
+        <img id="im-5" src="images/layout_image4.jpg" /> 
     
     </div>
     
@@ -29,18 +29,24 @@
 
 <div class="container_smallboxes">
     
-    <div id="ctnr-1" class="container_small first civil_week">
-        <img src="images/small_image.png" />
-        <span class="title">Koncert <br /></span>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+    <div id="ctnr-1" class="container_small first conference">
+                <span class="title">Konferencja <br /></span>
+        <span>Zapraszamy na konferencję!<br />
+Weź udział w najważniejszych dyskusjach dla III sektora. <br />
+Rejestracja trwa do 1 sierpnia br. </span>
     </div>
-    <div id="ctnr-2" class="container_small ofip">
-        <span class="title">OFIP <br /></span>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.</span>
+    <div id="ctnr-2" class="container_small picnic">
+        <span class="title">Piknik<br /></span>
+        <span>Weź udział w Pikniku Organizacji Pozarządowych!<br />
+Pokaż swoją działalność na wielkiej plenerowej imprezie na Krakowskim Przedmieściu. Na zgłoszenia czekamy do 22 lipca. </span>
     </div>
-    <div id="ctnr-3" class="container_small last conference">
-        <span class="title">Konferencja <br /></span>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</span>
+    <div id="ctnr-3" class="container_small last civil_week">
+        
+
+        <span class="title">Tydzień Obywatelski <br /></span>
+        <span>Działasz? Daj się poznać! <br /> Włącz się w Tydzień Obywatelski.<br />  Do końca lipca czekamy na propozycje wydarzeń.</span>
+        
+        
     </div>
     
     <br class="clear" />

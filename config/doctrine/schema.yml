@@ -218,55 +218,37 @@ PicnicParticipant:
     
 RegistrationForm:
   columns:
-    is_group:                 {type: boolean, notnull: true}
-    name:                     {type: string(120), notnull: true}
+    name:                     {type: string(120)}
     my_email:                 {type: string(120), email: true, notnull: true}
-    organization_name:        {type: string(120), notnull: true}
-    street:                   {type: string(120), notnull: true}
-    postal_code:              {type: string(120), notnull: true}
-    locality:                 {type: string(120), notnull: true}
-    voivodeship:              {type: string(120), notnull: true}
-    phone_number:             {type: string(120), notnull: true}
-    fax:                      {type: string(120), notnull: true}
-    organization_email:       {type: string(120), email: true, notnull: true}
-    internet_page:            {type: string, notnull: true}
-    NIP:                      {type: string(120), notnull: true}
-    agreement1:               {type: boolean, notnull: true}
-    number_of_participants:   {type: integer, notnull: true}
-    fee_number:               {type: integer, notnull: true}
-    fee_total:                {type: string(120), notnull: true}
-    fac_name:                 {type: string(120), notnull: true}
-    fac_address:              {type: string(120), notnull: true}
-    fac_NIP:                  {type: string(120), notnull: true}
-    accommodation:            {type: boolean, notnull: true}
-    participation_1:          {type: boolean, notnull: true}
-    participants_1:           {type: boolean, notnull: true}
-    participation_2:          {type: boolean, notnull: true}
-    participants_2:           {type: boolean, notnull: true}
-    participation_3:          {type: boolean, notnull: true}
-    participants_3:           {type: boolean, notnull: true}
-    participation_4:          {type: boolean, notnull: true}
-    participants_4:           {type: boolean, notnull: true}
-    participation_5:          {type: boolean, notnull: true}
-    participants_5:           {type: boolean, notnull: true}
-    participation_6:          {type: boolean, notnull: true}
-    participants_6:           {type: boolean, notnull: true}
-    participation_7:          {type: boolean, notnull: true}
-    participants_7:           {type: boolean, notnull: true}
-    participation_8:          {type: boolean, notnull: true}
-    participants_8:           {type: boolean, notnull: true}
-    participation_9:          {type: boolean, notnull: true}
-    participants_9:           {type: boolean, notnull: true}
-    participation_10:         {type: boolean, notnull: true}
-    participants_10:          {type: boolean, notnull: true}
-    participation_11:         {type: boolean, notnull: true}
-    participants_11:          {type: boolean, notnull: true}
-    participation_12:         {type: boolean, notnull: true}
-    participants_12:          {type: boolean, notnull: true}
-    participation_13:         {type: boolean, notnull: true}
-    participants_13:          {type: boolean, notnull: true}
-    participation_14:         {type: boolean, notnull: true}
-    participants_14:          {type: boolean, notnull: true}
-    participation_15:         {type: boolean, notnull: true}
-    participants_15:          {type: boolean, notnull: true}
-    agreement2:               {type: boolean, notnull: true}
+    organization_name:        {type: string(120)}
+    street:                   {type: string(120)}
+    postal_code:              {type: string(120)}
+    locality:                 {type: string(120)}
+    voivodeship:              {type: string(120)}
+    phone_number:             {type: string(120)}
+    fax:                      {type: string(120),}
+    organization_email:       {type: string(120), email: true}
+    internet_page:            {type: string}
+    NIP:                      {type: string(15)}
+    agreement1:               {type: boolean, default: false}
+    fee_number:               {type: integer}
+    fac_name:                 {type: string(120)}
+    fac_address:              {type: string(120)}
+    fac_NIP:                  {type: string(120)}
+    accommodation:            {type: boolean, default: false}
+    participation1:          {type: boolean, default: false}
+    participation2:          {type: boolean, default: false}
+    participation3:          {type: boolean, default: false}
+    participation4:          {type: boolean, default: false}
+    participation5:          {type: boolean, default: false}
+    participation6:          {type: boolean, default: false}
+    participation7:          {type: boolean, default: false}
+    participation8:          {type: boolean, default: false}
+    participation9:          {type: boolean, default: false}
+    participation10:         {type: boolean, default: false}
+    participation11:         {type: boolean, default: false}
+    participation12:         {type: boolean, default: false}
+    participation13:         {type: boolean, default: false}
+    participation14:         {type: boolean, default: false}
+    participation15:         {type: boolean, default: false}
+    agreement2:               {type: boolean, default: false}

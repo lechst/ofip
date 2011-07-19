@@ -31,8 +31,13 @@ VI OGÓLNOPOLSKIE FORUM INICJATYW POZARZĄDOWYCH<br />
 CZĘŚĆ KONFERENCYJNA<br />
 Warszawa 16-17 września 2011 r.</h2>
 
-<?php include_partial('form', array('form' => $form)) ?>
-
+    <div class="reg-form">
+        <div class="field">
+            dziękujemy za rejestrację
+        </div>
+           </div>
+        
+    
 </div>
 
 <div class="clear"></div>

@@ -10,60 +10,30 @@
  */
 class formActions extends sfActions
 {
-  public function executeIndex(sfWebRequest $request)
-  {
-    $this->registration_forms = Doctrine_Core::getTable('RegistrationForm')
-      ->createQuery('a')
-      ->execute();
-  }
-
-  public function executeShow(sfWebRequest $request)
-  {
-    $this->registration_form = Doctrine_Core::getTable('RegistrationForm')->find(array($request->getParameter('id')));
-    $this->forward404Unless($this->registration_form);
-  }
 
   public function executeNew(sfWebRequest $request)
   {
+       $this->getUser()->setCulture('pl');
     $this->form = new RegistrationFormForm();
+    
+          $this->menu_subpage_left = Doctrine::getTable('Subpage')
+      ->createQuery('a')
+      ->execute();
+          
   }
 
   public function executeCreate(sfWebRequest $request)
   {
+   
     $this->forward404Unless($request->isMethod(sfRequest::POST));
-
+    
     $this->form = new RegistrationFormForm();
-
+$this->menu_subpage_left = Doctrine::getTable('Subpage')
+      ->createQuery('a')
+      ->execute();
     $this->processForm($request, $this->form);
 
     $this->setTemplate('new');
-  }
-
-  public function executeEdit(sfWebRequest $request)
-  {
-    $this->forward404Unless($registration_form = Doctrine_Core::getTable('RegistrationForm')->find(array($request->getParameter('id'))), sprintf('Object registration_form does not exist (%s).', $request->getParameter('id')));
-    $this->form = new RegistrationFormForm($registration_form);
-  }
-
-  public function executeUpdate(sfWebRequest $request)
-  {
-    $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
-    $this->forward404Unless($registration_form = Doctrine_Core::getTable('RegistrationForm')->find(array($request->getParameter('id'))), sprintf('Object registration_form does not exist (%s).', $request->getParameter('id')));
-    $this->form = new RegistrationFormForm($registration_form);
-
-    $this->processForm($request, $this->form);
-
-    $this->setTemplate('edit');
-  }
-
-  public function executeDelete(sfWebRequest $request)
-  {
-    $request->checkCSRFProtection();
-
-    $this->forward404Unless($registration_form = Doctrine_Core::getTable('RegistrationForm')->find(array($request->getParameter('id'))), sprintf('Object registration_form does not exist (%s).', $request->getParameter('id')));
-    $registration_form->delete();
-
-    $this->redirect('form/index');
   }
 
   protected function processForm(sfWebRequest $request, sfForm $form)
@@ -73,7 +43,17 @@ class formActions extends sfActions
     {
       $registration_form = $form->save();
 
-      $this->redirect('form/edit?id='.$registration_form->getId());
+      //$this->redirect('form/edit?id='.$registration_form->getId());
+      $this->redirect('rejestracja/dziekujemy');
     }
+  }
+  
+  public function executeDziekujemy(sfWebRequest $request)
+  {
+      
+      $this->menu_subpage_left = Doctrine::getTable('Subpage')
+      ->createQuery('a')
+      ->execute();
+    $this->setTemplate('dziekujemy');
   }
 }

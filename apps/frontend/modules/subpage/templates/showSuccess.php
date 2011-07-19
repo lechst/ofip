@@ -1,22 +1,32 @@
 <div class="container_subpage_menu">
 
     <ul class="subpage_menu">
+                        <?php $i = 0;
+            foreach ($menu_subpage_left as $ms) { ?>
 
-        <li class="box_menu"><a href="">lorem ipsum 01</a></li>
-        <li class="box_menu"><a href="">lorem ipsum 02</a></li>
-        <li class="box_menu"><a href="">lorem ipsum 03</a></li>
-        <li class="box_menu"><a href="">lorem ipsum 04</a></li>
-        <li class="box_menu"><a href="">lorem ipsum 05</a></li>
-
+                        <?php if ($ms['is_module'] == 0) { ?>
+                
+                        <?php if ($ms['menu_category_id'] == $content['menu_category_id']) { ?>
+                                <li class="box_menu"><a href="<?php echo ('/ofip/web/strona/'.$ms['id'])  ?>"><?php echo $ms['name'] ?></a></li>
+                        <?php }  ?>
+               <?php }  else  { ?>
+                        <?php if ($ms['menu_category_id'] == $content['menu_category_id']) { ?>
+                                <li class="box_menu"><a href="/ofip/web/rejestracja"><?php echo $ms['name'] ?></a></li>
+                        <?php }  ?>         
+               <?php }  ?>
+                                
+                <?php $i++;
+            } ?>
+        
     </ul>
 
 </div>
 
 <div class="container_subpage_content">
 
-    <h2>Subpage</h2>
+    <h2><?php echo($content['title']) ?></h2>
     <p>
-        <?php echo($content) ?>
+        <?php echo(html_entity_decode($content['content'])) ?>
    </p>
 
 </div>

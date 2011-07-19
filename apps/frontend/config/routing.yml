@@ -11,7 +11,7 @@ subpage_show:
   param: { module: subpage, action: show }
 
 registration:
-  url: /rejestracja
+  url: /rejestracja/:action
   param: { module: form, action: new}
 
 # generic rules

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file original="global" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit>
+                <source>Id</source>
+                <target> </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Name</source>
+                <target>Imię i nazwisko przedstawicielki / przedstawiciela organizacji:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>My email</source>
+                <target>E-mail:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Organization name</source>
+                <target>Pełna nazwa organizacji:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Street</source>
+                <target>Ulica:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Postal code</source>
+                <target>Kod pocztowy:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Locality</source>
+                <target>Miejscowość:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Voivodeship</source>
+                <target>Województwo:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Phone number</source>
+                <target>Telefon (z nr kierunkowym):</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fax</source>
+                <target>Fax:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Organization email</source>
+                <target>E-mail organizacji:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Internet page</source>
+                <target>strona internetowa:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>NIP</source>
+                <target>NIP organizacji:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Agreement1</source>
+                <target>Wyrażam zgodę na opublikowanie mojego imienia i nazwiska oraz organizacji na liście uczestników VI Ogólnopolskiego Forum Inicjatyw Pozarządowych na stronie http://www.ofip.org.pl/:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Number of participants</source>
+                <target> </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fee number</source>
+                <target>Zgłaszam swój udział w konferencji i jednocześnie deklaruję opłatę w wysokości:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fee total</source>
+                <target> </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fac name</source>
+                <target>nazwa:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fac address</source>
+                <target>adres:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Fac NIP</source>
+                <target>NIP:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Accommodation</source>
+                <target>Jestem zainteresowany/a możliwością skorzystania z noclegów udostępnionych po preferencyjnych stawkach dla uczestników VI OFIP-u.</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation1</source>
+                <target>Działalność charytatywna/integracja społeczna </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation2</source>
+                <target>Ekologia </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation3</source>
+                <target>Edukacja (przedszkolna, w wieku szkolnym, pozaszkolna) </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation4</source>
+                <target>Edukacja obywatelska </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation5</source>
+                <target>Infrastruktura (organizacje wspierające) </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation6</source>
+                <target>Kultura </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation7</source>
+                <target>Działalność na rzecz osób niepełnosprawnych </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation8</source>
+                <target>Działalność na rzecz seniorów </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation9</source>
+                <target>Organizacje kobiece, genderowe </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation10</source>
+                <target>Pomoc rozwojowa (w tym działalność poza granicami Polski) </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation11</source>
+                <target>Prawa człowieka </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation12</source>
+                <target>Rozwój lokalny/regionalny </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation13</source>
+                <target>Rynek pracy i aktywizacja zawodowa </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation14</source>
+                <target>Sport amatorski i turystyka </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Participation15</source>
+                <target>Żadna z powyższych sesji nie jest zbieżna z tym, czym zajmuje się moja organizacja, w związku z tym wezmę udział w sesji VARIA </target>
+            </trans-unit>
+            <trans-unit>
+                <source>Agreement2</source>
+                <target>Wyrażam zgodę na przetwarzanie moich danych osobowych w celach rekrutacji uczestników VI Ogólnopolskiego Forum Inicjatyw Pozarządowych, zgodnie z Ustawą z dn. 29.08.1997 o ochronie danych osobowych (Dz. U. nr 133, poz. 883)</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Is group</source>
+                <target> </target>
+            </trans-unit>
+            <trans-unit>
+                <source> csrf token</source>
+                <target> </target>
+            </trans-unit>
+      
+        </body>
+    </file>
+</xliff>

@@ -20,6 +20,9 @@ class RegistrationFormForm extends BaseRegistrationFormForm
      $this->setWidget('internet_page', new sfWidgetFormInputText());
      $this->setWidget('fee_number', new sfWidgetFormSelect(array('choices'=>array('105'=>'75zł + 30 zł = 105 zł (brutto)- koszt uczestnictwa w konferencji oraz zimny lunch* 16 i 17 września;' , '90'=>'75zł + 15 zł = 90 zł (brutto)- koszt uczestnictwa w konferencji i zimny lunch 16 września;' ,'75'=>'75 zł (brutto)- koszt uczestnictwa w konferencji'))));
       
+     $this->setValidator('agreement1', new sfValidatorBoolean(array('required'=>true)));
+     $this->setValidator('agreement2', new sfValidatorBoolean(array('required'=>true)));
+     
       /* 
     $this->setWidgets(array(
       'id'                     => new sfWidgetFormInputHidden(array('label'=>" ")),

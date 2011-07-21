@@ -411,7 +411,6 @@ body {
 }
 .box_menu {
     width: 163px;
-    height: 11px;
     padding-top: 6px;
     padding-bottom: 6px;
     border-bottom: 1px solid;
@@ -429,7 +428,7 @@ body {
     float: left;
     width: 720px;
     margin-left: 10px;
-    border: 5px solid #8dd101;
+    border: 5px solid;
     border-bottom: none;
     margin-top: 34px;
     margin-bottom: 34px;

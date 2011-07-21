@@ -43,7 +43,6 @@ class subpageActions extends sfActions
       ->createQuery('a')
       ->execute();
       
-      
   }
 
   

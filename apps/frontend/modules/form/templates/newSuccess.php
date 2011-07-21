@@ -1,6 +1,6 @@
 
 
-<div class="container_subpage_menu">
+<div class="container_subpage_menu" style="border-color:#009eff;">
 
     <ul class="subpage_menu">
                         <?php $i = 0;
@@ -24,7 +24,7 @@
 
 </div>
 
-<div class="container_subpage_content">
+<div class="container_subpage_content" style="border-color:#009eff;">
 
 <h2>FORMULARZ ZGŁOSZENIOWY<br />
 VI OGÓLNOPOLSKIE FORUM INICJATYW POZARZĄDOWYCH<br />

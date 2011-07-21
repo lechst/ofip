@@ -12,7 +12,7 @@
 
 </div>
 
-<div class="container_subpage_content">
+<div class="container_subpage_content" style="border-color:<?php echo($contentColor) ?>;">
 
     <h2>Subpage</h2>
     <p>

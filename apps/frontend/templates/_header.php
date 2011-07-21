@@ -22,7 +22,7 @@
 
     <div class="header_info">
 
-        <div class="header_logo"></div>
+        <a href="/ofip/web/"><div class="header_logo"></div></a>
 
         <div class="header_info_box">
 

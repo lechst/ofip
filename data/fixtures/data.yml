@@ -1,0 +1,347 @@
+MenuCategory:
+  MenuCategory_1:
+    name: 'Czym jest OFIP'
+    order_nr: '1'
+  MenuCategory_2:
+    name: Konferencja
+    order_nr: '2'
+  MenuCategory_3:
+    name: 'Tydzień Obywatelski'
+    order_nr: '3'
+  MenuCategory_4:
+    name: Piknik
+    order_nr: '4'
+  MenuCategory_5:
+    name: 'Archiwum OFIP-ów'
+    order_nr: '5'
+  MenuCategory_6:
+    name: 'glowne strony'
+    order_nr: '6'
+RegistrationForm:
+  RegistrationForm_1:
+    name: ''
+    my_email: konrad@laboratorium.ee
+    organization_name: ''
+    street: ''
+    postal_code: ''
+    locality: ''
+    voivodeship: ''
+    phone_number: ''
+    fax: ''
+    organization_email: ''
+    internet_page: ''
+    NIP: ''
+    agreement1: false
+    fee_number: '105'
+    fac_name: ''
+    fac_address: ''
+    fac_NIP: ''
+    accommodation: false
+    participation1: false
+    participation2: false
+    participation3: false
+    participation4: false
+    participation5: false
+    participation6: false
+    participation7: false
+    participation8: false
+    participation9: false
+    participation10: false
+    participation11: false
+    participation12: false
+    participation13: false
+    participation14: false
+    participation15: false
+    agreement2: false
+  RegistrationForm_2:
+    name: ''
+    my_email: konrad@laboratorium.ee
+    organization_name: ''
+    street: ''
+    postal_code: ''
+    locality: ''
+    voivodeship: ''
+    phone_number: ''
+    fax: ''
+    organization_email: ''
+    internet_page: ''
+    NIP: ''
+    agreement1: false
+    fee_number: '105'
+    fac_name: ''
+    fac_address: ''
+    fac_NIP: ''
+    accommodation: false
+    participation1: false
+    participation2: false
+    participation3: false
+    participation4: false
+    participation5: false
+    participation6: false
+    participation7: false
+    participation8: false
+    participation9: false
+    participation10: false
+    participation11: false
+    participation12: false
+    participation13: false
+    participation14: false
+    participation15: false
+    agreement2: false
+  RegistrationForm_3:
+    name: ''
+    my_email: konrad2@laboratorium.ee
+    organization_name: ''
+    street: ''
+    postal_code: ''
+    locality: ''
+    voivodeship: ''
+    phone_number: ''
+    fax: ''
+    organization_email: ''
+    internet_page: ''
+    NIP: ''
+    agreement1: false
+    fee_number: '105'
+    fac_name: ''
+    fac_address: ''
+    fac_NIP: ''
+    accommodation: false
+    participation1: false
+    participation2: false
+    participation3: false
+    participation4: false
+    participation5: false
+    participation6: false
+    participation7: false
+    participation8: false
+    participation9: false
+    participation10: false
+    participation11: false
+    participation12: false
+    participation13: false
+    participation14: false
+    participation15: false
+    agreement2: false
+  RegistrationForm_4:
+    name: ''
+    my_email: konrad3@laboratorium.ee
+    organization_name: ''
+    street: ''
+    postal_code: ''
+    locality: ''
+    voivodeship: ''
+    phone_number: ''
+    fax: ''
+    organization_email: ''
+    internet_page: ''
+    NIP: ''
+    agreement1: false
+    fee_number: '105'
+    fac_name: ''
+    fac_address: ''
+    fac_NIP: ''
+    accommodation: false
+    participation1: false
+    participation2: false
+    participation3: false
+    participation4: false
+    participation5: false
+    participation6: false
+    participation7: false
+    participation8: false
+    participation9: false
+    participation10: false
+    participation11: false
+    participation12: false
+    participation13: false
+    participation14: false
+    participation15: false
+    agreement2: false
+  RegistrationForm_5:
+    name: ''
+    my_email: konrad4@laboratorium.ee
+    organization_name: ''
+    street: ''
+    postal_code: ''
+    locality: ''
+    voivodeship: ''
+    phone_number: ''
+    fax: ''
+    organization_email: ''
+    internet_page: ''
+    NIP: ''
+    agreement1: false
+    fee_number: '105'
+    fac_name: ''
+    fac_address: ''
+    fac_NIP: ''
+    accommodation: false
+    participation1: false
+    participation2: false
+    participation3: false
+    participation4: false
+    participation5: false
+    participation6: false
+    participation7: false
+    participation8: false
+    participation9: false
+    participation10: false
+    participation11: false
+    participation12: false
+    participation13: false
+    participation14: false
+    participation15: false
+    agreement2: false
+StaticContentSubpage:
+  StaticContentSubpage_3:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_7
+    name: '#009eff'
+    title: 'Strefa uczestnika'
+    content: "<p><strong>Serdecznie zapraszamy do udziału w Konferencji VI Ogólnopolskie Forum Inicjatyw Pozarządowych, która odbędzie się w dniach 16-17 września 2011 r. na Uniwersytecie Warszawskim.</strong> </p>\r\n\r\n<p><strong>OFIP-y to święto naszego sektora.</strong> Tradycyjnie będzie to czas i przestrzeń do podejmowania nie jednej, a wielu istotnych dla sektora pozarządowego w danym momencie kwestii.\r\n<strong>Dlatego nie może zabraknąć Państwa obecności.</strong></p>\r\n\r\n<p>\r\nZarejestrować się można tutaj. Zapisy na Konferencję trwają do <strong>1 sierpnia 2011 r.  (poniedziałek)</strong>\r\n</p>\r\n\r\n<h2>Potwierdzenia</h2>\r\n<p>\r\nNa podstawie niniejszego zgłoszenia otrzymają Państwo do 12 sierpnia <strong>wstępne potwierdzenie uczestnictwa</strong> wraz z elektroniczną wersją faktury z terminem płatności 7 dni.  \r\n<strong>Ostateczne potwierdzenie uczestnictwa</strong> dostaną Państwo, na podstawie wniesionej opłaty, na początku września.   \r\n</p>\r\n\r\n<h2>Opłaty</h2>\r\n<p>\r\nVI OFIP jest przedsięwzięciem niekomercyjnym, a jego organizacja nie wiąże się z żadnymi finansowymi zyskami dla organizatora. Jednak aby mógł się odbyć, poza wsparciem ze strony grantodawców i darczyńców, niezbędne są także opłaty od uczestników, które w całości przeznaczane są na pokrycie kosztów konferencji. Staramy się jednak, by konieczność wnoszenia opłat nie była barierą uniemożliwiającą udział w OFIP-ie.\r\n</p>\r\n<p>\r\nKoszt uczestnictwa w konferencji wynosi <strong>75 zł od osoby.</strong>\r\n</p>\r\n<p>\r\nW przypadku, gdy z jednej organizacji wybierają się trzy osoby lub więcej istnieje możliwość skorzystania z <strong>preferencyjnej stawki</strong> 55 zł od osoby.\r\nPodobnie jest w przypadku <strong>zgłoszeń grupowych</strong> powyżej 10 osób, ale niekoniecznie z jednej organizacji.\r\nJednak każdorazowo, gdy zamierzają Państwo skorzystać z tej formy <strong>prosimy o wcześniejszy kontakt z nami</strong> - telefonicznie lub mailowo: rekrutacja@ofip.org.pl.\r\n</p>\r\n<p>\r\n  Wpłaty prosimy dokonać na konto organizatora OFIP-u:\r\n</p>\r\n<p>\r\n<strong>Stowarzyszenie na rzecz Forum Inicjatyw Pozarządowych \r\nSzpitalna 5/5, 00-031 Warszawa\r\nDnB Nord  93 1370 1037 0000 1701 4021 0400  </strong>\r\n</p>\r\n<p>\r\nW tytule wpłaty prosimy wpisać nr faktury. \r\nOryginał faktury będzie do odebrania w czasie konferencji w recepcji razem z kartami uczestników.\r\n</p>\r\n\r\n<h2>Lunch</h2>\r\n<p>\r\nUczestnicy VI OFIP-u mają możliwość skorzystania z lunchu, który będzie wydawany na terenie Kampusu Głównego Uniwersytetu Warszawskiego, a więc tuż obok miejsca odbywania się konferencji.\r\nLunch będzie miał postać zimnego wegetariańskiego posiłku – tortilli/dużej kanapki i drożdżówki oraz kawy i herbaty.\r\n<strong>Koszt pojedynczego lunch to 15 zł brutto</strong>. Wypełniając formularz zgłoszeniowy prosimy zaznaczyć, czy chcą Państwo skorzystać z tej opcji.\r\n </p>\r\n\r\n<h2>Noclegi</h2>\r\n<p>\r\nOferta noclegowa jest zróżnicowana. Więcej informacji o noclegach w zakładce <a href=\"3\">Noclegi</a>\r\n</p>"
+  StaticContentSubpage_4:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_1
+    name: '#009eff'
+    title: 'Rejestracja indywidualna'
+    content: "<p>\r\n<strong>Serdecznie zapraszamy do udziału w Konferencji VI Ogólnopolskie Forum Inicjatyw Pozarządowych.</strong>\r\nZapisy na Konferencję trwają do 1 sierpnia 2011 r. (poniedziałek).\r\n</p>\r\n<p>\r\n<strong>Są dwa sposoby rejestracji.</strong>\r\n</p>\r\n<p>\r\n• Zarejestrować można się wypełniając formularz rejestracyjny poniżej online\r\n</p>\r\nlub\r\n<p>\r\n• Wysyłając maila z załącznikiem: wypełnionym formularzem na adres mailowy: rekrutacja@ofip.org.pl\r\n</p>\r\n\r\n<p>\r\nNa podstawie niniejszego zgłoszenia otrzymają Państwo do 12 sierpnia <strong>wstępne potwierdzenie uczestnictwa</strong> wraz z elektroniczną wersją faktury z terminem płatności 7 dni.  \r\n</p>\r\n<p>\r\n<strong>Ostateczne potwierdzenie uczestnictwa</strong> dostaną Państwo, na podstawie wniesionej opłaty, na początku września.   \r\n</p>\r\n<h2>Formularz rejestracyjny</h2>"
+  StaticContentSubpage_5:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_2
+    name: '#009eff'
+    title: Miejsce
+    content: "<p>VI Ogólnopolskie Forum Inicjatyw Pozarządowych tak jak poprzednia Konferencja odbędzie się na Uniwersytecie Warszawskim, na terenie Kampusu Głównego: w Audytorium Maximum, w Starej Bibliotece Uniwersytetu Warszawskiego oraz w budynku przy Krakowskim Przedmieściu 24 - w siedzibie samorządu UW.\r\n </p>\r\n<iframe width=\"640\" height=\"480\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://maps.google.pl/maps/ms?msa=0&msid=203969615175629492758.0004a85f81013cc96847d&ie=UTF8&ll=52.240231,21.018519&spn=0.012614,0.027466&z=15&output=embed\"></iframe>"
+  StaticContentSubpage_6:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_4
+    name: '#009eff'
+    title: 'Fundusz Stypedialny'
+    content: '<p>Organizatorzy OFIP-u dysponują <strong>funduszem stypendialnym</strong> służącym wsparciu tych osób i organizacji, które z różnych względów nie mogą sobie pozwolić na samodzielne opłacenie uczestnictwa, dojazdu i noclegów w czasie VI OFIP-u. Osoby zainteresowane tą formą wsparcia proszone są o kontakt na adres: rekrutacja@ofip.org.pl. W tytule maila prosimy wpisać "fundusz stypendialny".</p>'
+  StaticContentSubpage_7:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_5
+    name: '#009eff'
+    title: 'Targi Organizacji wspierających'
+    content: "<p><strong>Targi organizacji wspierających</strong> mają na celu przedstawienie  uczestnikom konferencji dostępnej oferty organizacji wspierających sektor pozarządowy - organizacji i instytucji, które wspierają organizacje pozarządowe poprzez różnego rodzaju:</p>\r\n<p>\r\n   - szkolenia\r\n</p>\r\n<p>\r\n   - doradztwo\r\n</p>\r\n<p>\r\n   - porady\r\n</p>\r\n<p>\r\nPoszczególne organizacje infrastrukturalne mając do dyspozycji stoiska będą mogły prezentować swoją ofertę lub udzielać porad podczas osobistych spotkań w specjalnie na ten cel aranżowanej przestrzeni wystawienniczej.\r\n</p>\r\n\r\n<h2>Miejsce</h2>\r\n<p><strong>Kampus Uniwersytetu Warszawskiego</strong> - Skwer przed wejście do dawnego Gmachu Biblioteki UW</p>"
+  StaticContentSubpage_8:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_9
+    name: '#009eff'
+    title: konferencja
+    content: "<p><strong>W dniach 16-17 września 2011 r. na terenie Kampusu Uniwersytetu Warszawskiego odbędzie się  Konferencja  VI Ogólnopolskiego Forum Inicjatyw Pozarządowych.</strong> Tradycyjnie już OFIP będzie czasem i przestrzenią do podejmowania nie jednej, a wielu istotnych dla sektora pozarządowego w danym momencie kwestii.</p>\r\n<p>\r\nPierwszego dnia odbędą się sesje służące refleksji na temat kondycji sektora obywatelskiego w Polsce. Na porannych sesjach plenarnych chcemy rozmawiać o kwestiach „horyzontalnych”, dotyczących całego sektora. Po południu podobne zagadnienia poruszane będą w czasie kilku równoległych sesji branżowych skupiających przedstawicieli organizacji działających w podobnych obszarach tematycznych. Pierwszy dzień przygotowywany jest przez Stowarzyszenie na rzecz Forum Inicjatyw Pozarządowych oraz Komitet Organizacyjny, przy wsparciu instytucji i organizacji, które podejmą się odpowiedzialności za sesje branżowe.\r\n</p>\r\n<p>\r\nW tym roku chcemy także stworzyć okazję do mniej formalnych rozmów w kameralnym gronie. Taką właśnie funkcję będą pełniły 45-minutowe <strong>spotkania śniadaniowe</strong>, które odbędą się rano drugiego dnia konferencji - jeszcze przed sesjami. Chcemy by odbywały się one dosłownie przy śniadaniu - zapewnimy kawę i drożdżówki. Mogą przybrać bardzo różne formy - od spotkania z ekspertem, który będzie opowiadał na temat, w którym się specjalizuje (np. promocja, media społecznościowe, fundraising), po nieformalne dyskusje na różne, nawet bardzo wąskie tematy, o których po prostu chcecie Państwo porozmawiać i zaprosić do tej rozmowy innych uczestników OFIP-u.\r\n</p>\r\n\r\n<h2>Kontakt</h2>\r\n <p>\r\n<strong>Anna Sędek</strong>, Stowarzyszenie na rzecz FIP: anna.sedek@ofip.org.pl\r\n</p>\r\n<p>\r\n<strong>Małgorzata Osińska</strong>, Stowarzyszenie na rzecz FIP: malgorzata.osinska@ofip.org.pl\r\n</p>\r\n<p>\r\n<strong>Aneta Marczyk</strong>, Ogólnopolska Federacja Organizacji Pozarządowych: aneta.marczyk@ofip.org.pl\r\n</p>\r\nTel: 22 378 39 77"
+  StaticContentSubpage_9:
+    MenuCategory: MenuCategory_3
+    Subpage: Subpage_10
+    name: '#ff017e'
+    title: 'Tydzień obywatelski'
+    content: "<p>\r\nMiędzy 10 a 17 września 2011 roku odbędzie się w Warszawie Tydzień Obywatelski.\r\n</p>\r\n<p>\r\n<strong>Celem Tygodnia jest pokazanie stolicy jako miasta aktywnego obywatelsko i zachęcenie mieszkańców do włączenia się w działania organizacji pozarządowych i inicjatyw społecznych.</strong>\r\n</p>\r\n<p>\r\nUrząd m.st. Warszawy oraz Stowarzyszenie na rzecz Forum Inicjatyw Pozarządowych zapraszają organizacje pozarządowe działające na rzecz Warszawy i warszawiaków do udziału w Tygodniu poprzez przygotowanie spotkań w kawiarniach, akcji w przestrzeni miejskiej.\r\n</p>\r\n<p>\r\nTydzień Obywatelski ma charakter otwarty. Wydarzenia mogą mieć formę: dyskusji, debat, wystaw, projekcji filmowych, warsztatów, koncertów, happeningów; powinny być nastawione na integrację, budowanie więzi sąsiedzkich, wzmacnianie zaangażowania społecznego, promowanie postaw obywatelskich.\r\n</p>\r\n<p>\r\nOrganizacje pozarządowe działające na rzecz Warszawy i warszawiaków mają możliwość uzyskania<strong> dotacji na działania w Tygodniu Obywatelskim w ramach konkursu Urzędu m.st. Warszawy.</strong>\r\n</p>\r\n\r\n<p>\r\nSzczegóły dotyczące konkursu oraz formularz zgłoszeniowy znajdują się na stronie Urzędu Miasta w zakładce „Otwarte konkursy ofert na realizację zadań publicznych”. \r\n</p>\r\n<p>\r\nKontakt\r\n</p>\r\n<p>\r\n<strong>Marta Czaputowicz</strong>, Stowarzyszenie na rzecz FIP (marta.czaputowicz@ofip.org.pl, (22) 100 55 89)\r\n</p>\r\n<p>\r\n<strong>Karolina Prus-Nałęcz</strong>, Urząd m.st. Warszawy (ext.kprus@um.warszawa.pl, (22) 443 34 73)\r\n</p>"
+  StaticContentSubpage_10:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_1
+    name: '#009eff'
+    title: 'Rejestracja indywidualna'
+    content: "<p><strong>Serdecznie zapraszamy do udziału w Konferencji VI Ogólnopolskie Forum Inicjatyw Pozarządowych.</strong>\r\nZapisy na Konferencję trwają do<strong> 1 sierpnia 2011 r. (poniedziałek).</strong></p>\r\n<p>\r\n<strong>Są dwa sposoby rejestracji.</strong>\r\n</p>\r\n<p>\r\n•Zarejestrować można się wypełniając formularz rejestracyjny poniżej online\r\n</p>\r\nlub\r\n<p>\r\n•Wysyłając maila z załącznikiem: wypełnionym formularzem na adres mailowy: rejestracja@ofip.org.pl\r\n</p>\r\n\r\n\r\n<p>\r\nNa podstawie niniejszego zgłoszenia otrzymają Państwo do 12 sierpnia <strong>wstępne potwierdzenie uczestnictwa</strong> wraz z elektroniczną wersją faktury z terminem płatności 7 dni.  \r\n</p>\r\n<p>\r\n<strong>Ostateczne potwierdzenie uczestnictwa</strong> dostaną Państwo, na podstawie wniesionej opłaty, na początku września.   \r\n</p>\r\n<h2>Formularz rejestracyjny</h2>\r\n"
+  StaticContentSubpage_11:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_8
+    name: '#009eff'
+    title: 'Rejestracja grupowa'
+    content: "<p>\r\n<strong>Serdecznie zapraszamy do udziału w Konferencji VI Ogólnopolskie Forum Inicjatyw Pozarządowych.</strong>\r\nZapisy na Konferencję trwają <strong>do 1 sierpnia 2011 r. (poniedziałek).</strong>\r\n</p>\r\n<p>\r\n<strong>Grupę od 10 osób zarejestrować można </strong>\r\n</p>\r\n<p>\r\n• wysyłając maila z załącznikiem: wypełnionym  formularzem rejestracji grupowej na adres mailowy rejestracja@ofip.org.pl \r\n</p>\r\n<p>\r\nListę z ich danymi należy dosłać do 31 sierpnia (środa) na adres: rejestracja@ofip.org.pl\r\n</p>\r\n<p>\r\nNa podstawie niniejszego zgłoszenia otrzymają Państwo do 12 sierpnia <strong>wstępne potwierdzenie uczestnictwa</strong> wraz z elektroniczną wersją faktury z terminem płatności 7 dni. \r\n</p>\r\n<p>\r\n<strong>Ostateczne potwierdzenie uczestnictwa </strong>dostaną Państwo, na podstawie wniesionej opłaty, na początku września.\r\n</p>\r\n"
+  StaticContentSubpage_12:
+    MenuCategory: MenuCategory_2
+    Subpage: Subpage_3
+    name: '#009eff'
+    title: Noclegi
+    content: "<p>Oferta noclegowa jest zróżnicowana. Zarezerwowaliśmy dla Państwa miejsca w 4 hostelach,\r\nw 4 hotelach oraz w jednym akademiku Uniwersytetu Warszawskiego. Razem 532 miejsca.</p>\r\n<p>\r\n<strong>Hostele i hotele</strong>. Miejsca noclegowe są wstępnie zarezerwowane dla Państwa do <strong>17 sierpnia</strong>. Do tego czasu powinniście się Państwo indywidualnie, bądź grupowo zgłaszać się do wybranych hosteli oraz hoteli i rezerwować dla siebie miejsca. Po tym czasie wstępna rezerwacja wygasa.\r\nW większości hosteli i hoteli trzeba przed przyjazdem zapłacić równowartość pierwszego noclegu.\r\n</p>\r\n<p>\r\n<strong>Hotel Campanile\r\n</strong>\r\n</p>\r\n<p>            \r\n<strong>Hotel Premiere Classe</strong>\r\n</p>\r\n<p>             \r\n<strong>Hotel Hera</strong>\r\n</p>\r\n<p>           \r\n<strong>Hotel Aramis</strong>\r\n</p>\r\n<p>            \r\n<strong>Hostel Garden Villa</strong>\r\n</p>\r\n<p>\r\n<strong>Hostel Witt</strong>\r\n</p>\r\n<p>\r\n<strong>Hostel Helvetia</strong>\r\n</p>\r\n<p>\r\n<strong>Puffa Hostel</strong>\r\n</p>\r\n<p>\r\n<strong>Akademik.</strong> Jeżeli są Państwo zainteresowani noclegami w Akademiku Uniwersytetu Warszawskiego „Żwirek”,  prosimy o maila na: nocleg@ofip.org.pl\r\n</p>\r\n<p>\r\n<strong>Dom Studencki „Żwirek”</strong>\r\n</p>\r\n\r\n<p>\r\n<strong>UWAGA: Koszty dojazdu na konferencję oraz koszty noclegów uczestnicy pokrywają we własnym zakresie.</strong>\r\n</p>\r\n\r\n<h2>MAPA</h2>\r\n<iframe width=\"640\" height=\"480\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"http://maps.google.pl/maps/ms?msa=0&amp;ie=UTF8&amp;msid=203969615175629492758.0004a893e86f3e4508021&amp;ll=52.214339,21.002769&amp;spn=0.100971,0.219727&amp;z=12&amp;output=embed\"></iframe>\r\n\r\n<h2>Hotel Campanile</h2>\r\n<p>\r\nul. Towarowa 2, 00-811 Warszawa\r\ntel. 48 22 582 75 11; fax.: 48 22 582 72 01\r\nhttp://www.campanile.com/hotel/pl/polska/varsovie.htm?WT.mc_id=ca1208\r\n</p>\r\n<strong>Pokoje. </strong></br>\r\n•10 pokoi 1 osobowych z łazienką i śniadaniem. </br>\r\n<strong>Cena za pokój:</strong> Pierwsza noc 300 zł. Druga noc 160 zł </br>\r\n•10 pokoi 2 osobowych z łazienką i śniadaniem. </br>\r\n<strong>Cena za pokój:</strong> Pierwsza noc za 335 zł. Druga noc 195 zł </br>\r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji należy wysłać do <strong>17 sierpnia</strong> wypełniony formularz na \r\nadres mailowy: reservation.warsaw@campanile.com.pl lub na numer fax:+48 22 582 72 01 </br>\r\n<strong>Przedpłata: Do 1 września</strong> trzeba zapłacić równowartość pierwszego noclegu \r\n</p>\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hotelu</strong>: 3 przystanki tramwajem w stronę Okęcia: 7, 8, \r\n9, 22, 24, 25. Trzeba wysiąść na przystanku: Plac Zawiszy. Czas około: 6 minut </br>\r\n<strong>Dojazd z Hotelu na Uniwersytet Warszawski:</strong> Z przystanku pl. Zawiszy autobusem 175 w \r\nkierunku Centrum. Trzeba wysiąść na 7 przystanku Uniwersytet Warszawski. Czas około: 15 \r\nminut \r\n</p>\r\n<p>\r\n<strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br>\r\n<strong>Wyszukiwarka połączeń komunikacyjnych:</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n<h2>Hotel Premiere Classe </h2>\r\n<p>\r\nul. Towarowa 2, 00-811 Warszawa </br>\r\ntel. 48 22 582 75 11; fax.: 48 22 582 72 01 </br>\r\nhttp://www.premiere-classe-warszawa.pl/pl/index.aspx </br>\r\n</p>\r\n<p>\r\n<strong>Pokoje. </strong></br>\r\n•10 pokoi 1 osobowych z łazienką i śniadaniem. </br>\r\n<strong>Cena za pokój:</strong> Pierwsza noc 200 zł. Druga noc 140 zł. </br>\r\n•10 pokoi 2 osobowych z łazienką i śniadaniem. </br>\r\n<strong>Cena za pokój:</strong> Pierwsza noc za 220 zł. Druga noc 160 zł. </br>\r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji należy wysłać do <strong>17 sierpnia</strong> mailem wypełniony formularz \r\nna adres: reservation.warsaw@campanile.com.pl lub na numer fax:+48 22 582 72 01 </br>\r\n<strong>Przedpłata:</strong> Do 1 września trzeba zapłacić równowartość pierwszego noclegu \r\n</p>\r\n\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hotelu:</strong> 3 przystanki tramwajami w stronę Okęcia: 7, 8, \r\n9, 22, 24, 25. Trzeba wysiąść na przystanku: Plac Zawiszy. Czas: 6 minut </br>\r\n<strong>Dojazd z Hotelu na Uniwersytet Warszawski:</strong> Z przystanku pl. Zawiszy autobusem 175 w \r\nkierunku Centrum. Trzeba wysiąść na 7 przystanku Uniwersytet Warszawski. Czas: 15 minut \r\n</p>\r\n</strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br>\r\n<strong>Wyszukiwarka połączeń komunikacyjnych:</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n<h2>Hotel Hera: </h2>\r\n<p>\r\nul. Belwederska 26/30, 00-594 Warszawa </br>\r\nrezerwacja: 48 22 55 310 04, 851 51 38 </br>\r\nrecepcja: 48 22 55 310 00 - 01 </br>\r\nfax: 48 22 55 310 03 </br>\r\nmail: herarezerw@adm.uw.edu.pl </br>\r\nhttp://www.uw.edu.pl/kandydat/hera.html </br>\r\n</p>\r\n<p>\r\n<strong>Pokoje. </strong></br>\r\n• 15 pokoi 1 osobowych z umywalką i toaletą. Prysznic ogólnodostępny w korytarzu. </br>\r\n<strong>Cena za pokój </strong>: Pierwsza doba 110 zł. Druga doba 88 zł. W cenę jest wliczone śniadanie. </br>\r\n• 10 pokoi 2 osobowych z umywalką i toaletą. Prysznic ogólnodostępny w korytarz. </br>\r\n<strong>Cena za pokój:</strong> Pierwsza doba 160 zł. Druga doba128 zł. W cenę jest wliczone śniadanie. </br>\r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji do<strong> 17 sierpnia</strong> należy indywidualnie skontaktować się z \r\nhotelem. Hasło: OFIP </br>\r\n<strong>Przedpłata:</strong> Nie ma przedpłaty. Całość płaci się na miejscu w dniu przyjazdu. \r\n</p>\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hotelu:</strong> Autobusami 501, 519. Trzeba wysiąść na 5 \r\nprzystanku Spacerowa. Autobusem 131. Trzeba wysiąść na 7 przystanku Spacerowa. Czas \r\nokoło: 24 minuty. </br>\r\n<strong>Dojazd z Hotelu na Uniwersytet Warszawski:</strong> Z przystanku Spacerowa w kierunku \r\nCentrum autobusami: 116, 503, 195, 180. Trzeba wysiąść na 7 przystanku: Uniwersytet \r\nWarszawski. Czas około: 20 minut. \r\n</p>\r\n<p>\r\n<strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br>\r\n<strong>Wyszukiwarka połączeń komunikacyjnych:</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n\r\n\r\n<h2>Hotel Aramis </h2>\r\n<p>\r\nUl. Mangalia 3b, 02-758 Warszawa </br>\r\nDział rezerwacji. Tel: 22 207 81 00 </br>\r\nmail: aramis@starthotel.pl </br>\r\nwww.puhit.pl </br>\r\n</p>\r\n<p>\r\n<strong>Pokoje.</strong> </br>\r\n•21 pokoi 2 osobowych z łazienką </br>\r\n<strong>Cena za pokój:</strong> 205 zł za noc. W cenę wliczone jest śniadanie. </br>\r\n•21 pokoi 3 osobowych z łazienką </br>\r\n<strong>Cena za pokój:</strong> 225 zł za noc. W cenę wliczone jest śniadanie. </br>\r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji do 17 sierpnia należy indywidualnie skontaktować się z \r\nhotelem. Hasło: OFIP </br>\r\n<strong>Przedpłata:</strong> Do dnia 1 września należy wpłacić zaliczkę, równowartość pierwszego \r\nnoclegu. \r\n</p>\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hotelu:</strong> Z przystanku Dworzec Centralny 27 autobusem \r\n501. Z przystanku Dworzec Centralny 28 autobusem 519. Należy wysiąść na 7 przystanku \r\nMANGALIA. Czas: około 27minut </br>\r\n<strong>Dojazd z Hotelu na Uniwersytet Warszawski:</strong> Z przystanku MANGALIA 02 autobus 116. \r\nTrzeba wysiąść na pl. Małachowskiego i dojść na Uniwersytet. Czas: około 36 minut. \r\n</p>\r\n<p>\r\n<strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br>\r\n<strong>Wyszukiwarka połączeń komunikacyjnych:</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n<p>\r\nHostel Garden Villa </br>\r\nul. Dolna 42, 00-697 Warszawa </br>\r\ntel: +48 22 841 11 73, +48 502 072 980 </br>\r\nmail: hostel@gardenvilla.pl </br>\r\nhttp://www.gardenvilla.pl/ </br>\r\n</p>\r\n<strong>Pokoje.</strong> </br>\r\n•3 pokoje 2 osobowe z prysznicem w pokoju, toaleta dostępna w korytarzu. </br>\r\n<strong>Cena za pokój:</strong> 150 zł za noc. Śniadanie płatne dodatkowo 15 zł od osoby. </br>\r\n•3 pokoje 3 osobowe z prysznicem w pokoju, toaleta dostępna w korytarzu </br>\r\n<strong>Cena za pokój:</strong> 185zł za noc. Śniadanie płatne dodatkowo 15 zł od osoby. </br>\r\n•1 pokój 2 osobowy z łazienką w korytarzu </br>\r\n<strong>Cena za pokój:</strong> 130zł za noc. Śniadanie płatne dodatkowo 15 zł od osoby. </br>\r\n•1 pokój 3 osobowy z łazienką w korytarzu </br>\r\n<strong>Cena za pokój:</strong> 175 zł za noc. Śniadanie płatne dodatkowo 15 zł od osoby. </br>\r\n</p>\r\n\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji do 17 sierpnia należy skontaktować się z hostelem. Hasło: \r\nOFIP </br>\r\n<strong>Przedpłata:</strong> Do dnia 20 sierpnia należy wpłacić zaliczkę, równowartość pierwszego \r\nnoclegu. </br>\r\n<strong>Dojazd z Dworca Centralnego do Hostelu</strong>: Z przystanku tramwajowego Dworzec Centralny \r\n09 tramwaj 10. Należy wysiąść na 9 przystanku Morskie Oko. Czas: około 22 minuty </br>\r\n<strong>Dojazd z Hostelu na Uniwersytet Warszawski:</strong> Z przystanku Morskie Oko 02 autobus 222. \r\nNależy wysiąść na 9 przystanku Uniwersytet Warszawski. Czas: około 24 minuty. \r\n</p>\r\n<p>\r\n<strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br>\r\n<strong>Wyszukiwarka połączeń komunikacyjnych:</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n<h2>Hostel Witt </h2>\r\n<p>\r\nTel: +48 603 632 588 </br>\r\nUl. Emilii Plater 9/11 m.2, 00-669 Warszawa </br>\r\nFax: +48 22 213 94 42 </br>\r\nE-mail: rezerwacja@hostelwitt.pl </br>\r\nhttp://www.hostelwitt.pl/ </br>\r\n</p>\r\n<p>\r\n<strong>Pokoje.</strong> </br>\r\n•1 pokój 2 osobowy bez łazienki </br>\r\n<strong>Cena za pokój:</strong> 150 zł </br>\r\n•1 pokój 3 osobowy bez łazienki </br>\r\n<strong>Cena za pokój:</strong> 165 zł </br>\r\n•Apartament pianisty: 1 pokój 1 osobowy i 1 pokój 2 osobowy </br>\r\n<strong>Cena za apartament:</strong> 300 zł </br>\r\n•Apartament czeladnika dla 2 osób </br>\r\n<strong>Cena za apartament:</strong> 200 zł </br>\r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji do 17 sierpnia należy skontaktować się z hostelem. Hasło: \r\nOFIP </br>\r\n<strong>Przedpłata:</strong> Do 1 września należy wpłacić zaliczkę, równowartość pierwszego noclegu. \r\n</p>\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hostelu:</strong> Z przystanku tramwajowego Dworzec Centralny \r\n09 tramwajem 17 lub 33 trzeba podjechać 1 przystanek, a następnie podejść kawałek. \r\nCzas: około 10 minut </br>\r\n<strong>Dojazd z Hostelu na Uniwersytet Warszawski:</strong> Z przystanku Dworzec Centralny 01 \r\nautobusem 128 należy podjechać 5 przystanków do Nowego Światu, a następnie podejść. \r\nCzas; około 31 minut \r\n</p>\r\n\r\n<p>\r\n<strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie.</br> \r\n<strong>Wyszukiwarka połączeń komunikacyjnych:</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n<h2>Hostel Helvetia </h2>\r\n<p>\r\nul. Sewerynów 7, 00-924 Warszawa </br> \r\ntel./fax. +48 22 826 71 08 </br> \r\nE-mail: info@hostel-helvetia.pl </br> \r\nhttp://www.hostel-helvetia.pl/?lang=pl </br> \r\n</p>\r\n<p>\r\n<strong>Pokoje.</strong> </br> \r\n•4 pokoje 2 osobowe bez łazienki </br> \r\n<strong>Cena za pokój:</strong> 172 zł. W cenę wliczone jest śniadanie. </br> \r\n•2 pokoje 3 osobowe bez łazienki </br> \r\n<strong>Cena za pokój:</strong> 225 zł. W cenę jest wliczone śniadanie. </br> \r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji do 17 sierpnia należy skontaktować się z hostelem. Hasło: \r\nOFIP </br> \r\n<strong>Przedpłata:</strong> Do 1 września należy wpłacić zaliczkę, równowartość pierwszego noclegu. </br> \r\n</p>\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hostelu:</strong> </br> \r\nZ przystanku autobusowego Dworzec Centralny 01 Autobusem 128. Czas: około 15 minut. </br> \r\nZ przystanku autobusowego Dworzec Centralny 14 autobusem 102. Czas: około 15 minut. </br> \r\n<strong>Dojazd z Hostelu na Uniwersytet Warszawski:</strong> Pieszo 5 minut v\r\n</p>\r\n<p>\r\n<strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br> \r\n<strong>Wyszukiwarka połączeń komunikacyjnych</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n<h2>\r\nPuffa Hostel \r\n</h2>\r\n<p>\r\nhttp://www.puffahostel.pl/hostel-pokoje.html </br> \r\nul. Tamka 50, 00-382 Warszawa </br> \r\nTel. 22 622 97 99 lub 600 055 235 </br> \r\nrezerwacje@puffahostel.pl </br> \r\nhttp://www.puffahostel.pl/hostel-pokoje.html </br> \r\n</p>\r\n<p>\r\n<strong>Pokoje. </strong></br>\r\n•7 pokoi 2 osobowych. Łazienka w korytarzu. </br> \r\n<strong>Cena za pokój</strong>: 146 zł </br> \r\n•8 pokoi 3 osobowych. Łazienka w korytarzu. </br> \r\n<strong>Cena za pokój:</strong> 195 zł </br> \r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji do 17 sierpnia należy skontaktować się z hostelem. Hasło: \r\nOFIP </br> \r\n<strong>Przedpłata:</strong> Do 25 sierpnia należy wpłacić zaliczkę, równowartość pierwszego noclegu. \r\n</p>\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hostelu:</strong> </br> \r\nZ przystanku Dworzec Centralny 01 dojazd autobusem 175 lub 128. Czas: około 15 minut. </br> \r\n<strong>Dojazd z Hostelu na Uniwersytet Warszawski:</strong> Pieszo około 10 minut \r\n</p>\r\n<p>\r\n<strong>Uwaga:</strong> Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br> \r\n<strong>Wyszukiwarka połączeń komunikacyjnych</strong>: http://warszawa.jakdojade.pl/ \r\n</p>\r\n\r\n<h2>Dom Studencki „Żwirek” </h2>\r\n<p>\r\nul. Żwirki i Wigury 95/97 </br> \r\n02-089 Warszawa </br> \r\ntel. 22 822 24 07; 55 48 000 </br> \r\nfax: 22 823 77 71 </br> \r\n</p>\r\n<p>\r\n<strong>Pokoje. </strong></br>\r\n•125 pokoi 2 osobowych. Łazienka w korytarzu. </br> \r\n<strong>Cena za pokój:</strong> 45 zł za jedną noc. </br> \r\n</p>\r\n<p>\r\n<strong>Rezerwacja:</strong> W celu rezerwacji pokoi proszę o maila do 17 sierpnia na adres: </br> \r\nnocleg@ofip.org.pl </br> \r\n<strong>Płatność:</strong> Na miejscu w dniu przyjazdu </br> \r\n</p>\r\n<p>\r\n<strong>Dojazd z Dworca Centralnego do Hostelu:</strong> Z przystanku Dw. Centralny 02 autobusem 504 </br> \r\nlub 175. Czas: około 15 minut. </br> \r\n<strong>Dojazd z Domu studenckiego na Uniwersytet Warszawski</strong>: Z przystanku autobusowego </br> \r\nBanacha-Szpital 02 linią 175 lub 128. Czas około 30 minut. </br> \r\n</p>\r\n<p>\r\n<strong>Uwaga</strong>: Podane możliwości dojazdów mogą się zmienić do września ze względu na budowę \r\nII linii metra. Natomiast w soboty i niedziele ulica Nowy Świat jest deptakiem, w związku z \r\nczym autobusy jeżdżą trasami zastępczymi, naokoło. Biorąc pod uwagę te okoliczności \r\nzachęcamy do korzystania z poniżej zamieszczonej wyszukiwarki połączeń \r\nkomunikacyjnych w Warszawie. </br> \r\n<strong>Wyszukiwarka połączeń komunikacyjnych:</strong> http://warszawa.jakdojade.pl/ \r\n</p>\r\n\r\n\r\n\r\n"
+  StaticContentSubpage_13:
+    MenuCategory: MenuCategory_4
+    Subpage: Subpage_11
+    name: '#ff9700'
+    title: 'Czym jest Piknik Organizacji Pozarządowych ?'
+    content: "<p>\r\n<strong>\r\nPiknik Organizacji Pozarządowych jest imprezą, która odbędzie się 17 września 2011 (sobota) na zakończenie Tygodnia Obywatelskiego przy Krakowskim Przedmieściu w Warszawie. Jego celem jest pokazanie szerokiej publiczności różnorodności działań podejmowanych przez organizacje pozarządowe.</strong>\r\n</p>\r\n <p>\r\nPodczas imprezy kilkadziesiąt organizacji pozarządowych z całego kraju będzie miało możliwość zaprezentowania w ciekawej formie swojej działalności, włączenia odwiedzających Piknik w prowadzone pokazy, warsztaty, happeningi, a także zachęcenia do podejmowania inicjatyw obywatelskich.\r\n</p>\r\n<p>\r\nW programie Pikniku planowany jest przegląd plenerowych spektakli przygotowanych przez teatralne organizacje pozarządowe.  Partnerem przeglądu jest Instytut Teatralny im. Zbigniewa Raszewskiego oraz Instytut Muzyki i Tańca.\r\n</p>\r\n<p>\r\n<strong>\r\nNa Piknik można się zgłaszać, wysyłając wypełniony formularz, który można pobrać w zakładce \"Zgłoś się!\". Nabór zgłoszeń trwa do 22 lipca.</strong>\r\n</p>\r\n<p>\r\nOrganizacje działające na rzecz Warszawy i warszawiaków miały możliwość wzięcia udziału w konkursie dotacyjnym m.st. Warszawy na wydarzenia organizowane w Tygodniu Obywatelskim i podczas Pikniku, który zakończył się 8 lipca. Wyniki konkursu zostaną ogłoszone wkrótce.\r\n</p>\r\n<p>\r\nOrganizacje, które nie przystąpiły do konkursu zapraszamy do wzięcia udziału w naborze zgłoszeń na Piknik poprzez wysłanie wypełnionego formularza, znajdującego się w zakładce \"Zgłoś się!\". \r\n</p>\r\n<p>\r\nKontakt:</br>\r\n</br>\r\n<strong>Anna Biernat:</strong> anna.biernat@ofip.org.pl</br>\r\n<strong>Maria Perchuć:</strong> maria.perchuc@ofip.org.pl</br>\r\ntel. (22) 100 55 89</br>\r\n</p>"
+  StaticContentSubpage_14:
+    MenuCategory: MenuCategory_1
+    Subpage: Subpage_13
+    name: '#8dd101'
+    title: 'Czym jest OFIP ?'
+    content: "<p>VI Ogólnopolskie Forum Inicjatyw Pozarządowych (OFIP) odbędzie się w dniach 10-17 września 2011 w Warszawie.Składać się będzie z dwóch głównych części – konferencji (16-17 września) oraz Tygodnia Obywatelskiego (10-17 września), którego jednym z istotniejszych elementów będzie Piknik Organizacji Pozarządowych (17 września).</p>\r\n\r\n<p>Głównym celem Forum jest spotkanie organizacji pozarządowych, inicjatyw obywatelskich i osób w nie zaangażowanych. OFIP ma służyć integracji środowiska oraz spotkaniu się i rozmowie o ważnych dla niego kwestiach. Ma być także okazją do dialogu, wymiany doświadczeń i refleksji na temat kształtu i dalszego rozwoju społeczeństwa obywatelskiego oraz miejsca i roli jaką powinni w nim pełnić świadomi i chcący się angażować obywatele.</p>\r\n\r\n<p>VI OFIP ma być wspólnym czasem i przestrzenią do dyskusji, w której uczestniczyć będą zarówno osoby działające w organizacjach pozarządowych, jak i samorządowcy, osoby związane z administracją rządową, środowiskiem naukowym i akademickim, mediami czy biznesem.</p>\r\n\r\n<p>Ogólnopolskie Forum Inicjatyw Pozarządowych to także okazja do szerokiego pokazania dorobku i różnorodności organizacji pozarządowych i zaangażowanych w ich działalność osób. Dorobek ten pokażemy uczestnikom Forum, ale także poprzez otwartą formułę Tygodnia Obywatelskiego - mieszkańcom Warszawy. Za pośrednictwem mediów będziemy się starać dotrzeć do opinii publicznej i zaprezentować rozmaite efekty działań aktywnych obywateli.</p>"
+Subpage:
+  Subpage_1:
+    MenuCategory: MenuCategory_2
+    name: 'Rejestracja indywidualna'
+    is_menu: true
+    is_module: true
+    module: aa
+  Subpage_2:
+    MenuCategory: MenuCategory_2
+    name: Miejsce
+    is_menu: true
+    is_module: false
+    module: ss
+  Subpage_3:
+    MenuCategory: MenuCategory_2
+    name: Noclegi
+    is_menu: true
+    is_module: false
+    module: cc
+  Subpage_4:
+    MenuCategory: MenuCategory_2
+    name: 'Fundusz Stypendialny'
+    is_menu: true
+    is_module: false
+    module: ss
+  Subpage_5:
+    MenuCategory: MenuCategory_2
+    name: 'Targi Organizacji wspierających'
+    is_menu: true
+    is_module: false
+    module: ss
+  Subpage_6:
+    MenuCategory: MenuCategory_5
+    name: 'Archiwalne strony www'
+    is_menu: true
+    is_module: false
+    module: aa
+  Subpage_7:
+    MenuCategory: MenuCategory_2
+    name: 'Strefa uczestnika'
+    is_menu: true
+    is_module: false
+    module: ss
+  Subpage_8:
+    MenuCategory: MenuCategory_2
+    name: 'Rejestracja grupowa'
+    is_menu: true
+    is_module: false
+    module: ss
+  Subpage_9:
+    MenuCategory: MenuCategory_6
+    name: KONFERENCJA
+    is_menu: true
+    is_module: false
+    module: dd
+  Subpage_10:
+    MenuCategory: MenuCategory_6
+    name: 'TYDZIEN OBYWATELSKI'
+    is_menu: true
+    is_module: false
+    module: dd
+  Subpage_11:
+    MenuCategory: MenuCategory_6
+    name: PIKNIK
+    is_menu: true
+    is_module: false
+    module: dd
+  Subpage_12:
+    MenuCategory: MenuCategory_6
+    name: ARCHIWUM
+    is_menu: true
+    is_module: false
+    module: ss
+  Subpage_13:
+    MenuCategory: MenuCategory_6
+    name: 'CZYM JEST OFIP'
+    is_menu: true
+    is_module: false
+    module: dd

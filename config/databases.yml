@@ -2,9 +2,13 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn: 'mysql:host=sql.lechst.nazwa.pl;dbname=lechst_4'
-      username: 'lechst_4'
-      password: 'PI314159265chuj'
+      dsn: 'mysql:host=ofip.itlab.nazwa.pl;dbname=itlab_8'
+      username: 'itlab_8'
+      password: 'iTlAbOFIP314'
+      
+      #dsn: 'mysql:host=sql.lechst.nazwa.pl;dbname=lechst_4'
+      #username: 'lechst_4'
+      #password: 'PI314159265chuj'
       
       #dsn: 'mysql:host=localhost;dbname=ofip'
       #username: 'ofip'

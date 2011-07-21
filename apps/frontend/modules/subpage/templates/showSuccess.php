@@ -7,11 +7,11 @@
                         <?php if ($ms['is_module'] == 0) { ?>
                 
                         <?php if ($ms['menu_category_id'] == $content['menu_category_id']) { ?>
-                                <li class="box_menu" style="border-color:<?php echo($content['name']);?>"><a style="color:<?php echo($content['name']);?>" href="<?php echo ('/ofip/web/strona/'.$ms['id'])  ?>"><?php echo $ms['name'] ?></a></li>
+                                <li class="box_menu" style="border-color:<?php echo($content['name']);?>"><a style="color:<?php echo($content['name']);?>" href="<?php echo ('/strona/'.$ms['id'])  ?>"><?php echo $ms['name'] ?></a></li>
                         <?php }  ?>
                <?php }  else  { ?>
                         <?php if ($ms['menu_category_id'] == $content['menu_category_id']) { ?>
-                                <li class="box_menu" style="border-color:<?php echo($content['name']);?>"><a style="color:<?php echo($content['name']);?>" href="/ofip/web/rejestracja"><?php echo $ms['name'] ?></a></li>
+                                <li class="box_menu" style="border-color:<?php echo($content['name']);?>"><a style="color:<?php echo($content['name']);?>" href="/rejestracja"><?php echo $ms['name'] ?></a></li>
                         <?php }  ?>         
                <?php }  ?>
                                 

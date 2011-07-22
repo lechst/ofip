@@ -9,11 +9,11 @@
                         <?php if ($ms['is_module'] == 0) { ?>
                 
                         <?php if ($ms['menu_category_id'] == 2) { ?>
-                                <li class="box_menu"><a href="<?php echo ('/ofip/web/strona/'.$ms['id'])  ?>"><?php echo $ms['name'] ?></a></li>
+                                <li class="box_menu"><a href="<?php echo ('/strona/'.$ms['id'])  ?>"><?php echo $ms['name'] ?></a></li>
                         <?php }  ?>
                <?php }  else  { ?>
                         <?php if ($ms['menu_category_id'] == 2) { ?>
-                                <li class="box_menu"><a href="/ofip/web/rejestracja"><?php echo $ms['name'] ?></a></li>
+                                <li class="box_menu"><a href="/rejestracja"><?php echo $ms['name'] ?></a></li>
                         <?php }  ?>         
                <?php }  ?>
                                 

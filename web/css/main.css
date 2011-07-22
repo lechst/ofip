@@ -95,6 +95,7 @@ body {
     text-align: left;
     font-weight: bold;
     letter-spacing: -0.31px;
+    width: 800px;
 }
 .header_date {
     float: left;

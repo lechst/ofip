@@ -9,8 +9,8 @@
             <div class="box_form first"><span>ZGŁOŚ SIĘ</span></div>
             <div class="box_form"><span>ZOSTAŃ WOLONTARIUSZEM</span></div>
             <div class="box_form"><span>ZGŁOŚ TEMAT NA SESJĘ</span></div>
-            <div class="box_form"><span>WEŹ UDZIAŁ W KONFERENCJI</span></div>
-            <div class="box_form"><span>WEŹ UDZIAŁ W PIKNIKU</span></div>
+            <div class="box_form"><a href="/rejestracja" style="color:white;text-decoration:none;"><span>WEŹ UDZIAŁ W KONFERENCJI</span></a></div>
+            <div class="box_form"><a href="/strona/14" style="color:white;text-decoration:none;"><span>WEŹ UDZIAŁ W PIKNIKU</span></a></div>
             
         </div>
         

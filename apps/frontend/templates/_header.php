@@ -22,7 +22,7 @@
 
     <div class="header_info">
 
-        <a href="/ofip/web/"><div class="header_logo"></div></a>
+        <a href="/"><div class="header_logo"></div></a>
 
         <div class="header_info_box">
 
@@ -40,7 +40,7 @@
 
             <div class="header_contact">
 
-                <span>KONTAKT OFIP</span>
+                <a href="/strona/16" style="text-decoration: none;color: #03A0FF;"><span>KONTAKT OFIP</span></a>
 
             </div>
 

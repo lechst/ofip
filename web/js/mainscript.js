@@ -24,7 +24,7 @@ $(document).ready(function () {
            
             x=parseInt($('.animate_logotypes').css('left'));
             
-            if (x<=-1303) {
+            if (x<=-2707) {
                 $('.animate_logotypes').css('left', 0)
             }   
 
@@ -47,59 +47,89 @@ $(document).ready(function () {
     
     $(".logo_1").hover(function(){
         $(".logo_1").attr("src","images/logotype2_1.png")
-        },function(){
+    },function(){
         $(".logo_1").attr("src","images/logotype_1.png")
-        });
+    });
     $(".logo_2").hover(function(){
         $(".logo_2").attr("src","images/logotype2_2.png")
-        },function(){
+    },function(){
         $(".logo_2").attr("src","images/logotype_2.png")
-        });
+    });
     $(".logo_3").hover(function(){
         $(".logo_3").attr("src","images/logotype2_3.png")
-        },function(){
+    },function(){
         $(".logo_3").attr("src","images/logotype_3.png")
-        });
+    });
     $(".logo_4").hover(function(){
         $(".logo_4").attr("src","images/logotype2_4.png")
-        },function(){
+    },function(){
         $(".logo_4").attr("src","images/logotype_4.png")
-        });
+    });
     $(".logo_5").hover(function(){
         $(".logo_5").attr("src","images/logotype2_5.png")
-        },function(){
+    },function(){
         $(".logo_5").attr("src","images/logotype_5.png")
-        });
+    });
     $(".logo_6").hover(function(){
         $(".logo_6").attr("src","images/logotype2_6.png")
-        },function(){
+    },function(){
         $(".logo_6").attr("src","images/logotype_6.png")
-        });
+    });
     $(".logo_7").hover(function(){
         $(".logo_7").attr("src","images/logotype2_7.png")
-        },function(){
+    },function(){
         $(".logo_7").attr("src","images/logotype_7.png")
-        });
+    });
     $(".logo_8").hover(function(){
         $(".logo_8").attr("src","images/logotype2_8.png")
-        },function(){
+    },function(){
         $(".logo_8").attr("src","images/logotype_8.png")
-        });
+    });
     $(".logo_9").hover(function(){
         $(".logo_9").attr("src","images/logotype2_9.png")
-        },function(){
+    },function(){
         $(".logo_9").attr("src","images/logotype_9.png")
-        });
+    });
     $(".logo_10").hover(function(){
         $(".logo_10").attr("src","images/logotype2_10.png")
-        },function(){
+    },function(){
         $(".logo_10").attr("src","images/logotype_10.png")
-        });
+    });
     $(".logo_11").hover(function(){
         $(".logo_11").attr("src","images/logotype2_11.png")
-        },function(){
+    },function(){
         $(".logo_11").attr("src","images/logotype_11.png")
-        });
+    });
+    $(".logo_12").hover(function(){
+        $(".logo_12").attr("src","images/logotype2_12.png")
+    },function(){
+        $(".logo_12").attr("src","images/logotype_12.png")
+    });
+    $(".logo_13").hover(function(){
+        $(".logo_13").attr("src","images/logotype2_13.png")
+    },function(){
+        $(".logo_13").attr("src","images/logotype_13.png")
+    });
+    $(".logo_14").hover(function(){
+        $(".logo_14").attr("src","images/logotype2_14.png")
+    },function(){
+        $(".logo_14").attr("src","images/logotype_14.png")
+    });
+    $(".logo_15").hover(function(){
+        $(".logo_15").attr("src","images/logotype2_15.png")
+    },function(){
+        $(".logo_15").attr("src","images/logotype_15.png")
+    });
+    $(".logo_16").hover(function(){
+        $(".logo_16").attr("src","images/logotype2_16.png")
+    },function(){
+        $(".logo_16").attr("src","images/logotype_16.png")
+    });
+    $(".logo_17").hover(function(){
+        $(".logo_17").attr("src","images/logotype2_17.png")
+    },function(){
+        $(".logo_17").attr("src","images/logotype_17.png")
+    });
      
     // Fixing containers on mainpage height
      

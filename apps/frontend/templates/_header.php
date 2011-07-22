@@ -4,7 +4,7 @@
 
         <div class="header_language_box first">
 
-            <div class="header_language_image"><img src="images/header_rus.png" /></div>
+            <div class="header_language_image"><img src="/images/header_rus.png" /></div>
 
             <div class="header_language_text">PO-RUSSKI</div>
 
@@ -12,7 +12,7 @@
 
         <div class="header_language_box">
 
-            <div class="header_language_image"><img src="images/header_eng.png" /></div>
+            <div class="header_language_image"><img src="/images/header_eng.png" /></div>
 
             <div class="header_language_text">ENGLISH</div>
 

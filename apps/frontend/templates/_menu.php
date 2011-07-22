@@ -28,6 +28,16 @@
     <li class="menu_main_box box_2"><a class="a_main" href="<?php echo ('/strona/'.'9')  ?>"><span><?php echo $menu_category[1] ?></span></a>
         <ul>
             
+            <li><a href="/strona/7">Strefa uczestnika</a></li>
+            <li><a href="/rejestracja">Rejestracja indywidualna</a></li>
+            <li><a href="/strona/8">Rejestracja grupowa</a></li>
+            <li><a href="/strona/3">Noclegi</a></li>
+            <li><a href="/strona/4">Fundusz Stypendialny</a></li>
+            <li><a href="/strona/2">Miejsce</a></li>
+            <li><a href="/strona/5">Targi Organizacji Wspierających</a></li>
+
+       
+<!--
                         <?php $i = 0;
             foreach ($menu_subpage as $ms) { ?>
 
@@ -44,6 +54,8 @@
                                 
                 <?php $i++;
             } ?>
+-->    
+
         </ul>   
         <div class="clear"></div>
     </li>

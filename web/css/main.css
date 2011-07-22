@@ -451,6 +451,8 @@ body {
     margin-top: 21px;
     width: 940px;
     height: 59px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-top: 1px solid #939395;
 
     overflow: hidden;
@@ -468,13 +470,13 @@ body {
     position: absolute;
     left: 0px;
     height: 59px;
-    width: 1303px;
+    width: 2707px;
 }
 .footer_logomove2 {
     position: absolute;
-    left: 1303px;
+    left: 2707px;
     height: 59px;
-    width: 1303px;
+    width: 2707px;
 }
 .footer_logo_box {
     float: left;
